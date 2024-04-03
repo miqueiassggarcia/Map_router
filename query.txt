@@ -1,0 +1,11 @@
+/*
+This is an example Overpass query.
+Try it out by pressing the Run button above!
+You can find more examples with the Load tool.
+*/
+[out:xml];
+(
+  way["highway"](around:4500,-7.0250,-37.2783);
+);
+(._;>;);
+out;
