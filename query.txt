@@ -1,11 +1,33 @@
-/*
-This is an example Overpass query.
-Try it out by pressing the Run button above!
-You can find more examples with the Load tool.
-*/
 [out:xml];
 (
   way["highway"](around:4500,-7.0250,-37.2783);
 );
 (._;>;);
 out;
+
+// The final query
+[out:json];
+// Fetch the area id into variable `a`
+(area["name"="Patos"]["place"="municipality"];)->.a;
+
+// Fetch all ways with a highway tag equal to `cycleway`
+// inside area `a`
+way
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+(area.a);
+
+// And join those highways with lat/lon points:
+node(w);
+
+// print everything to the output.
+out meta;
