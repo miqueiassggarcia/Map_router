@@ -27,7 +27,7 @@
   }).addTo(map);
 
   // Load GeoJSON file
-  fetch('patos.geojson')
+  fetch('../mapping/data/patos.geojson')
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map

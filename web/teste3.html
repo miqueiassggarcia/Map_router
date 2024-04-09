@@ -30,7 +30,7 @@
   var geojsonData = null;
 
   // Load GeoJSON file
-  fetch('patos.geojson')
+  fetch('../mapping/data/patos.geojson')
     .then(response => response.json())
     .then(data => {
       // Store GeoJSON data

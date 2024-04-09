@@ -1,8 +1,25 @@
-[out:xml];
+[out:json];
+
+(area["name"="Patos"]["place"="municipality"];)->.a;
+
 (
-  way["highway"](around:4500,-7.0250,-37.2783);
+  way
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (area.a);
 );
+
 (._;>;);
+
 out;
 
 // The final query

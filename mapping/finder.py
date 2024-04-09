@@ -1,46 +1,38 @@
+from shapely.geometry import Point, LineString
+from shapely.ops import nearest_points
 import json
 
-from shapely.geometry import Point, mapping, shape
-from shapely.ops import nearest_points
+# Load the GeoJSON data
+with open('data/patos.geojson') as f:
+    data = json.load(f)
 
-with open("patos copy.geojson") as f:
-    geojson = json.load(f)
+# Define the coordinate you want to find the nearest way to
+target_point = Point(-37.2900, -7.0300)  # Example coordinate
 
-ref_point = Point(-37.2900, -7.0300)
+# Initialize variables to store nearest way, its ID, and its distance
+nearest_way = None
+nearest_way_id = None
+nearest_distance = float('inf')
 
-features = []
-min_distance = None
-min_index = None
+# Iterate over features in the GeoJSON data
+for feature in data['features']:
+    # Extract coordinates and create a LineString geometry
+    coordinates = feature['geometry']['coordinates']
+    line = LineString(coordinates)
+    
+    # Find the nearest point on the LineString to the target point
+    nearest_point_on_line = nearest_points(line, target_point)[0]
+    
+    # Calculate distance between target point and nearest point on the line
+    distance = target_point.distance(nearest_point_on_line)
+    
+    # Update nearest way if the distance is smaller
+    if distance < nearest_distance:
+        nearest_way = line
+        nearest_way_id = feature['properties']['@id'] if '@id' in feature['properties'] else None
+        nearest_distance = distance
 
-for i, feature in enumerate(geojson["features"]):
-
-    # Could be improved with Haversine distance, or distance in UTM coordinates for example
-    p1, p2 = nearest_points(shape(feature["geometry"]), ref_point)
-    distance = p1.distance(p2)
-
-    if min_distance is None or distance < min_distance:
-        min_distance = distance
-        min_index = i
-
-    feature["properties"] = {"index": i, "distance": distance}
-    features.append(feature)
-    features.append(
-        {
-            "type": "Feature",
-            "properties": {"index": f"closest_point_{i}", "distance": distance},
-            "geometry": mapping(p1),
-        }
-    )
-
-features = sorted(features, key=lambda x: x["properties"]["distance"])
-
-features.append(
-    {
-        "type": "Feature",
-        "properties": {"index": "ref_point", "distance": 0},
-        "geometry": mapping(ref_point),
-    }
-)
-
-with open("gg.geojson", "w") as f:
-    json.dump({"type": "FeatureCollection", "features": features}, f)
+# Print the nearest way, its ID, and its distance
+print("Nearest Way ID:", nearest_way_id)
+print("Nearest Way:", nearest_way)
+print("Distance:", nearest_distance)
