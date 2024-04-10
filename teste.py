@@ -1,9 +1,9 @@
 import json
 
-with open('data/nodespatos.geojson') as f:
+with open('nodesvs.geojson') as f:
   nodespatos = json.load(f)
 
-with open('data/patos.geojson') as f:
+with open('vs.geojson') as f:
   wayspatos = json.load(f)
 
 i = 0
@@ -74,6 +74,11 @@ nodes = {
   "nodes": list_of_nodes
 }
 
+json_data2 = json.dumps(nodes, indent=4)
+
+with open("nodesarray.json", "w") as json_file:
+  json_file.write(json_data2)
+
 # nodes = []
 
 # for current_node in list_of_nodes:
@@ -101,7 +106,7 @@ nodes = {
 #   nodes.append(node)
 
 
-json_data2 = json.dumps(nodes, indent=4)
+# json_data2 = json.dumps(nodes, indent=4)
 
-with open("nodes.json", "w") as json_file:
-  json_file.write(json_data2)
+# with open("nodes.json", "w") as json_file:
+#   json_file.write(json_data2)
