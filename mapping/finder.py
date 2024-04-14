@@ -96,8 +96,8 @@ def calculate_distance(node1_id, node2_id):
                 (node1["coordinates"][1] - node2["coordinates"][1]) ** 2) ** 0.5
     return float('inf')  # Return infinity if nodes are not found
 
-start_id = "node/1826800840"
-end_id = "node/1828174813"
+start_id = "node/2956671559"
+end_id = "node/1852340143"
 
 with open('nodes.json') as f:
   nodes = json.load(f)
@@ -105,3 +105,11 @@ with open('nodes.json') as f:
 shortest_path, shortest_distance = dijkstra(nodes, start_id, end_id)
 print("Shortest path:", shortest_path)
 print("Shortest distance:", shortest_distance)
+
+def output_path(path):
+    print("[out:json];\n(")
+    for node in path:
+        print("node("+node[5:]+");")
+        for nd in nodes:
+            if(nd["id"] == str(node)):
+                print(nd)
