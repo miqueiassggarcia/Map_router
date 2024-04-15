@@ -19,7 +19,7 @@
 
 <script>
   // Initialize Leaflet map
-  var map = L.map('map').setView([-7.0300, -37.2900], 13);
+  var map = L.map('map').setView([-7.0407346, -37.290117], 13);
 
   // Add OpenStreetMap tile layer
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -27,7 +27,7 @@
   }).addTo(map);
 
   // Load GeoJSON file
-  fetch('../mapping/data/patos.geojson')
+  fetch('pt.geojson')
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map

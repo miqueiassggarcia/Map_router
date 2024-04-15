@@ -48,3 +48,23 @@ node(w);
 
 // print everything to the output.
 out meta;
+
+
+
+Vista serrana
+[out:json];
+	way
+      ["highway"]
+      ["highway"!="footway"]
+      ["highway"!="bridleway"]
+      ["highway"!="steps"]
+      ["highway"!="path"]
+      ["highway"!="cycleway"]
+      ["highway"!="pedestrian"]
+      ["highway"!="proposed"]
+      ["highway"!="service"]
+      ["highway"!="living_street"]
+      ["highway"!="raceway"]
+    (around: 420, -6.7402653, -37.5691605);
+	node(w);
+out geom;
