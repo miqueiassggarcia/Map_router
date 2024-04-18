@@ -27,11 +27,16 @@
   }).addTo(map);
 
   // Load GeoJSON file
-  fetch('pt.geojson')
+  fetch('output.geojson')
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map
       L.geoJSON(data).addTo(map);
+      data.sequence.map((value, index) => {
+        let marker = new L.Marker(value.reverse());
+        marker.bindPopup(`Ponto ${index + 1}`).openPopup();
+        marker.addTo(map);
+      })
     })
     .catch(error => {
       console.error('Error loading GeoJSON file:', error);
