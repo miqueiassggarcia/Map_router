@@ -1,115 +1,76 @@
-# import heapq
 import json
+import time
+import random
 
-# def dijkstra(nodes, start_id, end_id):
-#     # Create a dictionary to store distances from the start node
-#     distances = {node["id"]: float('inf') for node in nodes}
-#     distances[start_id] = 0
-    
-#     # Create a dictionary to store the previous node in the shortest path
-#     previous_nodes = {node["id"]: None for node in nodes}
-    
-#     # Create a priority queue to store nodes based on their distances
-#     priority_queue = [(0, start_id)]
-    
-#     try:
-#         while priority_queue:
-#             current_distance, current_id = heapq.heappop(priority_queue)
-            
-#             if current_id == end_id:
-#                 # Reached the end node, reconstruct the shortest path
-#                 path = []
-#                 while current_id is not None:
-#                     path.append(current_id)
-#                     current_id = previous_nodes[current_id]
-#                 return list(reversed(path)), distances[end_id]
-            
-#             for connection in next((node["connections"] for node in nodes if node["id"] == current_id), []):
-#                 neighbor_id = connection["id"]
-#                 distance = current_distance + calculate_distance(current_id, neighbor_id)
-                
-#                 if distance < distances[neighbor_id]:
-#                     distances[neighbor_id] = distance
-#                     previous_nodes[neighbor_id] = current_id
-#                     heapq.heappush(priority_queue, (distance, neighbor_id))
-#     except Exception as e:
-#         print("Error occurred:", e)
-    
-#     # No path found
-#     return None, float('inf')
+from dijkstra import dijkstra, calculate_distance
+from process import graph, data
 
-# def calculate_distance(node1_id, node2_id):
-#     # This function should calculate the distance between two nodes
-#     # You can implement your own distance calculation based on coordinates
-#     # For simplicity, let's assume Euclidean distance in this example
-#     node1 = next((node for node in nodes if node["id"] == node1_id), None)
-#     node2 = next((node for node in nodes if node["id"] == node2_id), None)
-#     if node1 and node2:
-#         return ((node1["coordinates"][0] - node2["coordinates"][0]) ** 2 + 
-#                 (node1["coordinates"][1] - node2["coordinates"][1]) ** 2) ** 0.5
-#     return float('inf')  # Return infinity if nodes are not found
+start_time = time.time()
 
-import heapq
+initial = (-37.2668079, -7.0136892)
+start = (-37.2668079, -7.0136892)
+points = []
 
-def dijkstra(nodes, start_id, end_id):
-    # Create a dictionary to store distances from the start node
-    distances = {node["id"]: float('inf') for node in nodes}
-    distances[start_id] = 0
-    
-    # Create a dictionary to store the previous node in the shortest path
-    previous_nodes = {node["id"]: None for node in nodes}
-    
-    # Create a priority queue to store nodes based on their distances
-    priority_queue = [(0, start_id)]
-    
-    while priority_queue:
-        current_distance, current_id = heapq.heappop(priority_queue)
-        
-        if current_id == end_id:
-            # Reached the end node, reconstruct the shortest path
-            path = []
-            while current_id is not None:
-                path.append(current_id)
-                current_id = previous_nodes[current_id]
-            return list(reversed(path)), distances[end_id]
-        
-        for connection in next((node["connections"] for node in nodes if node["id"] == current_id), []):
-            neighbor_id = connection["id"]
-            distance = current_distance + calculate_distance(current_id, neighbor_id)
-            
-            if distance < distances[neighbor_id]:
-                distances[neighbor_id] = distance
-                previous_nodes[neighbor_id] = current_id
-                heapq.heappush(priority_queue, (distance, neighbor_id))
-    
-    # No path found
-    return None, float('inf')
+for i in range(20):
+  random_int = random.randint(0, len(data["features"]))
+  way = data["features"][random_int]["geometry"]["coordinates"]
+  point = way[random.randint(0, len(way) - 1)]
+  points.append(tuple(point))
 
-def calculate_distance(node1_id, node2_id):
-    # This function should calculate the distance between two nodes
-    # You can implement your own distance calculation based on coordinates
-    # For simplicity, let's assume Euclidean distance in this example
-    node1 = next((node for node in nodes if node["id"] == node1_id), None)
-    node2 = next((node for node in nodes if node["id"] == node2_id), None)
-    if node1 and node2:
-        return ((node1["coordinates"][0] - node2["coordinates"][0]) ** 2 + 
-                (node1["coordinates"][1] - node2["coordinates"][1]) ** 2) ** 0.5
-    return float('inf')  # Return infinity if nodes are not found
+def neartest_point(start, points):
+  current_end = [(float('inf'), float('inf')), (float('inf')), 0]
+  for i in range(len(points)):
+    (distance) = calculate_distance(start, points[i])
+    if(distance < current_end[1]):
+      current_end[0] = points[i]
+      current_end[1] = distance
+      current_end[2] = i
+  
+  return current_end[0], current_end[2]
 
-start_id = "node/2956671559"
-end_id = "node/1852340143"
+sequence = [start]
+nodes = []
+while len(points) > 0:
+  end, index = neartest_point(start, points)
+  points.pop(index)
+  sequence.append(end)
 
-with open('nodes.json') as f:
-  nodes = json.load(f)
+  if start in graph and end in graph:
+      path, distance = dijkstra(graph, start, end)
+      if path is not None:
+        if(start != initial):
+          path.pop(0)
+        nodes += [list(coordinates) for coordinates in path]
+      else:
+          print("No path found between the" + str(start) + " and end" + str(end) + " nodes.")
+  else:
+      print("Start or end node is not in the graph.")
 
-shortest_path, shortest_distance = dijkstra(nodes, start_id, end_id)
-print("Shortest path:", shortest_path)
-print("Shortest distance:", shortest_distance)
+  start = end
 
-def output_path(path):
-    print("[out:json];\n(")
-    for node in path:
-        print("node("+node[5:]+");")
-        for nd in nodes:
-            if(nd["id"] == str(node)):
-                print(nd)
+
+output = {
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "sequence": sequence,
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": nodes
+      }
+    }
+  ]
+}
+
+json_output = json.dumps(output, indent=4)
+
+with open("../web/output.geojson", "w") as json_file:
+  json_file.write(json_output)
+
+end_time = time.time()
+
+execution_time = end_time - start_time
+print("Execution time:", execution_time, "seconds")

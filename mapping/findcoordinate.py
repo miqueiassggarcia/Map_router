@@ -23,6 +23,7 @@ for feature in data['features']:
         }
       })
 
+path = []
 for road in Roads:
-  Road = road["properties"]["@id"]
-  print("way(" + Road[4:] + ");")
+  path += road['geometry']['coordinates']
+print(path)
