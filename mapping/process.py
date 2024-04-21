@@ -13,10 +13,16 @@ for feature in data['features']:
     if(node not in graph):
       graph[node] = []
 
-    if(i > 0):
-      node0 = tuple(coords[i-1])
-      if(node0 not in graph[node]):
-        graph[node].append(node0)
+    if("oneway" not in feature["properties"]):
+      if(i > 0):
+        node0 = tuple(coords[i-1])
+        if(node0 not in graph[node]):
+          graph[node].append(node0)
+    elif(feature["properties"]["oneway"] == "no"):
+      if(i > 0):
+        node0 = tuple(coords[i-1])
+        if(node0 not in graph[node]):
+          graph[node].append(node0)
 
     if(i < len(coords) - 1):
       node1 = tuple(coords[i+1])

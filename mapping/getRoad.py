@@ -9,7 +9,7 @@ Roads = []
 for feature in data['features']:
   if('name' in feature['properties']):
     name = feature['properties']['name']
-    if("Rua Titico Gomes" in name):
+    if("Rua Godofredo Medeiros" in name):
       Roads.append({
         "type": feature["type"],
         "properties": {
@@ -25,5 +25,6 @@ for feature in data['features']:
 
 path = []
 for road in Roads:
-  path += road['geometry']['coordinates']
-print(path)
+  path.extend(road['geometry']['coordinates'])
+
+print(path[round(len(path) / 2)-1])
