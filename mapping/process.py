@@ -1,7 +1,7 @@
 import json
 
 # Read GeoJSON file
-with open('data/patos.geojson') as f:
+with open('mapping/data/patos.geojson') as f:
   data = json.load(f)
 
 # Extract nodes and their coordinates

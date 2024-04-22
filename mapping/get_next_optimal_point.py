@@ -1,4 +1,4 @@
-from dijkstra import calculate_distance
+from mapping.dijkstra import calculate_distance
 
 def neartest_point(start, points):
   current_end = [(float('inf'), float('inf')), (float('inf')), 0]

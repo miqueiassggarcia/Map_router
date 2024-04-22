@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeoJSON Map</title>
-  <!-- Include Leaflet CSS and JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <style>
@@ -19,19 +18,42 @@
 
 <script>
   // Initialize Leaflet map
-  var map = L.map('map').setView([-7.0407346, -37.290117], 13);
+  var map = L.map('map').setView([-7.0303346, -37.290117], 13);
 
   // Add OpenStreetMap tile layer
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
+  let lastSelectedColor = "";
+
+  function getRandomColor() {
+      var highContrastColors = ["black", "red", "blue", "green", "purple", "orange"];
+      var randomIndex;
+      var currentColor;
+
+      do {
+          randomIndex = Math.floor(Math.random() * highContrastColors.length);
+          currentColor = highContrastColors[randomIndex];
+      } while (currentColor === lastSelectedColor);
+
+      lastSelectedColor = currentColor;
+      return currentColor;
+  }
+
   // Load GeoJSON file
-  fetch('output.geojson')
+  fetch('http://localhost:5000/routes')
+    .then(response => console.log(response))
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map
-      L.geoJSON(data).addTo(map);
+      L.geoJSON(data, {
+        style: function(feature) {
+          return {
+            color: getRandomColor(),
+          };
+        }
+      }).addTo(map);
       data.sequence.map((value, index) => {
         let marker = new L.Marker(value.reverse());
         marker.bindPopup(`Ponto ${index + 1}`).openPopup();

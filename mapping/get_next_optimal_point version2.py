@@ -1,4 +1,4 @@
-from dijkstra import calculate_distance
+from mapping.dijkstra import calculate_distance
 
 def get_near_point(start, points):
   near = [(float('inf'), float('inf')), (float('inf'))]
