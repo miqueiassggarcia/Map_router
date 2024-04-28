@@ -3,32 +3,32 @@ def create_tables(conn):
 
   create_sender_table = """
   CREATE TABLE IF NOT EXISTS Remetente (
-      CPF VARCHAR(11) PRIMARY KEY,
-      Nome VARCHAR(100)
+    CPF VARCHAR(11) PRIMARY KEY,
+    Nome VARCHAR(100)
   );
   """
 
   create_address_table = """
   CREATE TABLE IF NOT EXISTS Endereco (
-      Id SERIAL PRIMARY KEY,
-      CEP VARCHAR(8),
-      Logradouro VARCHAR(255),
-      Municipio VARCHAR(100),
-      Estado VARCHAR(50),
-      Fragil BOOLEAN,
-      Valor DECIMAL(10,2)
+    Id VARCHAR(36) PRIMARY KEY,
+    Logradouro VARCHAR(255),
+    Bairro VARCHAR(100),
+    Municipio VARCHAR(100),
+    Estado VARCHAR(50)
   );
   """
 
   create_delivery_table = """
   CREATE TABLE IF NOT EXISTS Entrega (
-      Id SERIAL PRIMARY KEY,
-      Nome VARCHAR(100),
-      Expresso BOOLEAN,
-      Peso DECIMAL(10,2),
-      Volume DECIMAL(10,2),
-      EnderecoExt INTEGER REFERENCES Endereco(Id),
-      RemetenteCPF VARCHAR(11) REFERENCES Remetente(CPF)
+    Id VARCHAR(36) PRIMARY KEY,
+    Nome VARCHAR(120),
+    Expresso BOOLEAN,
+    Peso DECIMAL(10,2),
+    Volume DECIMAL(10,2),
+    Fragil BOOLEAN,
+    Valor DECIMAL(10,2),
+    EnderecoExt VARCHAR(36) REFERENCES Endereco(Id),
+    RemetenteCPF VARCHAR(11) REFERENCES Remetente(CPF)
   );
   """
 

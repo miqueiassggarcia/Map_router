@@ -42,8 +42,7 @@
   }
 
   // Load GeoJSON file
-  fetch('http://localhost:5000/routes')
-    .then(response => console.log(response))
+  fetch('output.geojson')
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map

@@ -78,3 +78,41 @@ Pegar todos os CEPS
         relation["addr:postcode"](area.a);
     );
 out geom;
+
+
+
+[out:json];
+// fetch area “Patos PB” to search in
+(area["name"="Patos"]["place"="municipality"];)->.searchArea;
+// gather results
+(
+  node[place~"suburb"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
+
+[out:json];
+// fetch area “Patos PB” to search in
+(area["name"="Patos"]["place"="municipality"];)->.searchArea;
+// gather results
+(
+  relation[place~"suburb"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
+
+[out:csv(::id, 'name', 'is_in', 'place')][timeout:25];
+// fetch area “Patos PB” to search in
+(area["name"="Patos"]["place"="municipality"];)->.searchArea;
+// gather results
+(
+  node[place~"suburb"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;

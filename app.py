@@ -15,7 +15,7 @@ url = os.getenv('DATABASE_URL')
 connection = psycopg2.connect(url)
 
 create_tables(connection)
-populate_tables(connection, 10)
+populate_tables(connection, 20)
 
 # Route to get all books
 @app.route('/routes', methods=['GET'])
