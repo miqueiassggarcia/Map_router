@@ -68,3 +68,13 @@ Vista serrana
     (around: 420, -6.7402653, -37.5691605);
 	node(w);
 out geom;
+
+Pegar todos os CEPS
+[out:json];
+	(area["name"="Patos"]["place"="municipality"];)->.a;
+    (
+        node["addr:postcode"](area.a);
+        way["addr:postcode"](area.a);
+        relation["addr:postcode"](area.a);
+    );
+out geom;

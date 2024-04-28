@@ -1,23 +1,27 @@
 "use client";
+import 'leaflet/dist/leaflet.css';
+import { useState } from 'react';
+import { MapContainer, TileLayer, GeoJSONProps } from 'react-leaflet';
+import { geoJSON } from "leaflet";
 
-import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
-
-interface GeoJSONData extends GeoJSON.GeoJsonObject {
-    "generator": string;
-    "copyright": string;
-    "sequence": number[][];
-    "features": [{
-        "type": string;
-        "geometry": {
-            "type": string;
-            "coordinates": number[][];
-        };
-    }]
+interface GeoJSONData extends GeoJSONProps {
+  type: string;
+  generator: string;
+  sequence: number[][];
+  copyright: string;
+  timestamp: string;
+  features: Feature[];
 }
 
-const MapComponent: React.FC = () => {
-  const [position, setPosition] = useState<[number, number]>([0, 0]);
+interface Feature {
+  type: "Feature";
+  geometry: {
+    type: string;
+    coordinates: number[][];
+  };
+}
+
+export default function MapComponent() {
   const [geojsonData, setGeojsonData] = useState<GeoJSONData>(
     {
       "type": "FeatureCollection",
@@ -266,33 +270,15 @@ const MapComponent: React.FC = () => {
     }
   );
 
-  // const fetchData = async () => {
-  //   try {
-  //     const response = await fetch('http://10.0.0.114:5000/routes');
-  //     const data: GeoJSONData = await response.json();
-  //     setGeojsonData(data);
-  //   } catch (error) {
-  //     console.error('Error fetching GeoJSON data:', error);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
-
-    return (
-    <div>
-      {geojsonData && (
-        <MapContainer center={[-7.0303346, -37.290117]} zoom={13}>
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution="OpenStreetMap"
-          />
-          <GeoJSON data={geojsonData} />
-        </MapContainer>
-      )}
-    </div>
+  return (
+    <MapContainer className='w-[100vw] h-[50vh]'
+      center={[-7.0303346, -37.290117]}
+      zoom={13}
+    >
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+    </MapContainer>
   );
-};
-
-export default MapComponent;
+}

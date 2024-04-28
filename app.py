@@ -1,9 +1,21 @@
+import os
+import psycopg2
+from dotenv import load_dotenv
 from flask import Flask, jsonify
 from mapping.finder import find_routes
 from flask_cors import CORS
+from querys import create_tables
+from feed_database import populate_tables
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+url = os.getenv('DATABASE_URL')
+connection = psycopg2.connect(url)
+
+create_tables(connection)
+populate_tables(connection, 10)
 
 # Route to get all books
 @app.route('/routes', methods=['GET'])
