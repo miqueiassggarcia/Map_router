@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify
 from mapping.finder import find_routes
 from flask_cors import CORS
-from querys import create_tables
+from create_database import create_tables
 from feed_database import populate_tables
 
 load_dotenv()
@@ -15,7 +15,7 @@ url = os.getenv('DATABASE_URL')
 connection = psycopg2.connect(url)
 
 create_tables(connection)
-populate_tables(connection, 20)
+populate_tables(connection, 80)
 
 # Route to get all books
 @app.route('/routes', methods=['GET'])

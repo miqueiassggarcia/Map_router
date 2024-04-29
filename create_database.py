@@ -26,7 +26,10 @@ def create_tables(conn):
     Peso DECIMAL(10,2),
     Volume DECIMAL(10,2),
     Fragil BOOLEAN,
-    Valor DECIMAL(10,2),
+    Lucro DECIMAL(10,2),
+    Distancia DECIMAL(10,2),
+    Tempo TIME,
+    Data DATE,
     EnderecoExt VARCHAR(36) REFERENCES Endereco(Id),
     RemetenteCPF VARCHAR(11) REFERENCES Remetente(CPF)
   );
