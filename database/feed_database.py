@@ -53,7 +53,7 @@ def generate_delivery(rua):
     "Fragil": fragil[0],
     "Lucro": lucro,
     "Data": data,
-    "Distancia": distance,
+    "Distancia": distance * 250,
     "Tempo": time_formated
   }
 
