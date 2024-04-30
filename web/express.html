@@ -27,32 +27,12 @@
 
   let lastSelectedColor = "";
 
-  function getRandomColor() {
-      var highContrastColors = ["black", "red", "blue", "green", "purple", "orange"];
-      var randomIndex;
-      var currentColor;
-
-      do {
-          randomIndex = Math.floor(Math.random() * highContrastColors.length);
-          currentColor = highContrastColors[randomIndex];
-      } while (currentColor === lastSelectedColor);
-
-      lastSelectedColor = currentColor;
-      return currentColor;
-  }
-
   // Load GeoJSON file
-  fetch('output.geojson')
+  fetch('http://localhost:5000/routes_express')
     .then(response => response.json())
     .then(data => {
       // Add GeoJSON layer to the map
-      L.geoJSON(data, {
-        style: function(feature) {
-          return {
-            color: getRandomColor(),
-          };
-        }
-      }).addTo(map);
+      L.geoJSON(data).addTo(map);
       data.sequence.map((value, index) => {
         let marker = new L.Marker(value.reverse());
         marker.bindPopup(`Ponto ${index + 1}`).openPopup();

@@ -30,6 +30,9 @@ def create_tables(conn):
     Distancia DECIMAL(10,2),
     Tempo TIME,
     Data DATE,
+    Prioridade DECIMAL(10, 2),
+    Latitude DECIMAL(10, 8),
+    Longitude DECIMAL(10, 8),
     EnderecoExt VARCHAR(36) REFERENCES Endereco(Id),
     RemetenteCPF VARCHAR(11) REFERENCES Remetente(CPF)
   );

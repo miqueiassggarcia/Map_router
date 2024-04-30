@@ -31,6 +31,17 @@ def format_minutes(decimal_minutes):
   formatted_time = base_time.strftime('%H:%M:%S')
   return formatted_time
 
+def generate_priority(properties):
+  hours, minutes, seconds = map(int, properties["Tempo"].split(':'))
+  total_seconds = hours * 3600 + minutes * 60 + seconds
+  date_remaining = properties["Data"] - datetime.now()
+  priority = ((properties["Lucro"]/(properties["Peso"]*properties["Volume"]))*0.3)
+  + (1/(date_remaining.days + date_remaining.seconds/86400))
+  + properties["Expresso"] * 1
+  + total_seconds * 0.2
+
+  return priority
+
 # Function to generate random delivery details
 def generate_delivery(rua):
   names = [f"Package {chr(ord('A') + i)}" for i in range(26)]
@@ -45,7 +56,7 @@ def generate_delivery(rua):
   time_estimated = calculate_time_by_distance(distance * 250, 60) * 60
   time_formated = format_minutes(time_estimated)
 
-  return {
+  properties = {
     "Nome": random.choice(names),
     "Expresso": expresso[0],
     "Peso": peso,
@@ -54,8 +65,14 @@ def generate_delivery(rua):
     "Lucro": lucro,
     "Data": data,
     "Distancia": distance * 250,
-    "Tempo": time_formated
+    "Tempo": time_formated,
+    "Latitude": coordinates_of_road[1],
+    "Longitude": coordinates_of_road[0]
   }
+
+  properties["Priority"] = generate_priority(properties)
+
+  return properties
 
 # Function to populate the tables with random data
 def populate_tables(conn, num_records):
@@ -86,8 +103,8 @@ def populate_tables(conn, num_records):
     entrega_id = str(uuid.uuid4())
     delivery = generate_delivery(rua)
     cur.execute("""
-      INSERT INTO Entrega (Id, Nome, Expresso, Peso, Volume, Fragil, Lucro, Distancia, Tempo, Data, EnderecoExt, RemetenteCPF) 
-      VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+      INSERT INTO Entrega (Id, Nome, Expresso, Peso, Volume, Fragil, Lucro, Distancia, Tempo, Data, Prioridade, Latitude, Longitude, EnderecoExt, RemetenteCPF) 
+      VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
       """, (
         entrega_id,
         delivery['Nome'],
@@ -99,6 +116,9 @@ def populate_tables(conn, num_records):
         delivery['Distancia'],
         delivery['Tempo'],
         delivery['Data'],
+        delivery['Priority'],
+        delivery['Latitude'],
+        delivery['Longitude'],
         endereco_id,
         cpf
       )

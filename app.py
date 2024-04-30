@@ -6,6 +6,7 @@ from mapping.finder import find_routes
 from flask_cors import CORS
 from database.create_database import create_tables
 from database.feed_database import populate_tables
+from database.process_package import process_express_packages, process_normal_packages
 
 load_dotenv()
 
@@ -21,19 +22,26 @@ cur.execute(f"DROP TABLE IF EXISTS remetente CASCADE;")
 create_tables(connection)
 populate_tables(connection, 100)
 
-# Route to get all books
-@app.route('/routes', methods=['GET'])
-def get_route():
-  return jsonify(find_routes())
+@app.route('/populate', methods=['GET'])
+def populate():
+  populate_tables(connection, 100)
+  return jsonify({"message": "success"})
 
-# # Route to get a specific book by id
-# @app.route('/books/<int:book_id>', methods=['GET'])
-# def get_book(book_id):
-#   book = next((book for book in books if book['id'] == book_id), None)
-#   if book:
-#       return jsonify(book)
-#   else:
-#       return jsonify({"message": "Book not found"}), 404
+@app.route('/routes_express', methods=['GET'])
+def get_route_express():
+  results = process_express_packages(connection)
+  if not results:
+    return jsonify({"message": "failed"})
+  else:
+    return find_routes(results)
+
+@app.route('/routes_normal', methods=['GET'])
+def get_route_normal():
+  results = process_normal_packages(connection)
+  if not results:
+    return jsonify({"message": "failed"})
+  else:
+    return find_routes(results)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoJSON Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+  // Initialize Leaflet map
+  var map = L.map('map').setView([-7.0303346, -37.290117], 13);
+
+  // Add OpenStreetMap tile layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  let lastSelectedColor = "";
+
+  // Load GeoJSON file
+  fetch('http://localhost:5000/routes_normal')
+    .then(response => response.json())
+    .then(data => {
+      // Add GeoJSON layer to the map
+      L.geoJSON(data).addTo(map);
+      data.sequence.map((value, index) => {
+        let marker = new L.Marker(value.reverse());
+        marker.bindPopup(`Ponto ${index + 1}`).openPopup();
+        marker.addTo(map);
+      })
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON file:', error);
+    });
+</script>
+
+</body>
+</html>
