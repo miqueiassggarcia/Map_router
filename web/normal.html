@@ -35,8 +35,25 @@
       L.geoJSON(data).addTo(map);
       data.sequence.map((value, index) => {
         let marker = new L.Marker(value.reverse());
-        marker.bindPopup(`Ponto ${index + 1}`).openPopup();
-        marker.addTo(map);
+        if(index == 0) {
+          marker.bindPopup(`Ponto ${index + 1}`).openPopup();
+          marker.addTo(map);
+        } else {
+          marker.bindPopup(`Ponto ${index + 1}
+            Endereço: 
+            - ${data.features[index -1].address.street}
+            - ${data.features[index -1].address.suburb}
+            - ${data.features[index -1].address.city}
+            - ${data.features[index -1].address.state}
+            Dados do pacote:
+            - ${data.features[index -1].package.expresso ? 'Expresso' : 'Normal'}
+            - ${data.features[index -1].package.fragil ? 'Fragil' : 'Normal'}
+            - Nome: ${data.features[index -1].package.name}
+            - Tempo estimado: ${data.features[index -1].package.time}
+            Remetente: ${data.features[index -1].sender.name}
+          `).openPopup();
+          marker.addTo(map);
+        }
       })
     })
     .catch(error => {
