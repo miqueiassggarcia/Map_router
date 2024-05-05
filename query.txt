@@ -116,3 +116,17 @@ out skel qt;
 out body;
 >;
 out skel qt;
+
+// get suburbs and neighbourhoods
+[out:json];
+// fetch area “Patos PB” to search in
+(area["name"="Patos"]["place"="municipality"];)->.searchArea;
+// gather results
+(
+  relation["boundary"="administrative"]["admin_level"="10"](area.searchArea);
+  node[place~"suburb|neighbourhood"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
