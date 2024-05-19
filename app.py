@@ -20,7 +20,7 @@ cur.execute(f"DROP TABLE IF EXISTS endereco CASCADE;")
 cur.execute(f"DROP TABLE IF EXISTS entrega CASCADE;")
 cur.execute(f"DROP TABLE IF EXISTS remetente CASCADE;")
 create_tables(connection)
-populate_tables(connection, 100)
+populate_tables(connection, 10)
 
 @app.route('/populate', methods=['GET'])
 def populate():

@@ -1,6 +1,9 @@
 import heapq
+from mapping.get_next_optimal_point import neartest_point
 
 def dijkstra(nodes, start_coordinates, end_coordinates):
+    if(end_coordinates not in nodes):
+        end_coordinates = neartest_point(start_coordinates, nodes)[0]
     # Create a dictionary to store distances from the start node
     distances = {coordinates: float('inf') for coordinates in nodes}
     distances[start_coordinates] = 0

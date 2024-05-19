@@ -11,6 +11,7 @@ def create_tables(conn):
   create_address_table = """
   CREATE TABLE IF NOT EXISTS Endereco (
     Id VARCHAR(36) PRIMARY KEY,
+    CEP VARCHAR(9),
     Logradouro VARCHAR(255),
     Bairro VARCHAR(100),
     Municipio VARCHAR(100),
