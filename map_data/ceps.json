@@ -1,0 +1,4734 @@
+{
+  "58708-370": {
+    "logradouro": "Rua Antônio Aureliano de Brito",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-382": {
+    "logradouro": "Rua Antônio Rui de Brito",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-530": {
+    "logradouro": "Rua Antônio Tranca Ruas",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-380": {
+    "logradouro": "Rua Delmiro Alves Monteiro",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-510": {
+    "logradouro": "Rua Doutor Rui Pereira",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-350": {
+    "logradouro": "Rua Francisca Inácia Lima",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-515": {
+    "logradouro": "Rua Francisco Trindade",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-360": {
+    "logradouro": "Rua Irineu Lacerda",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-520": {
+    "logradouro": "Rua José Gaspar",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-384": {
+    "logradouro": "Rua José Joaquim",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-500": {
+    "logradouro": "Rua José Melquíades",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-390": {
+    "logradouro": "Rua Ramiro Pereira dos Santos",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-392": {
+    "logradouro": "Rua Severino Alves",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-365": {
+    "logradouro": "Rua Tomaz Medeiros",
+    "bairro": "Alto da Tubiba"
+  },
+  "58708-502": {
+    "logradouro": "Travessa José Melquíades",
+    "bairro": "Alto da Tubiba"
+  },
+  "58706-810": {
+    "logradouro": "Rodovia BR-230",
+    "bairro": "Ana Leite"
+  },
+  "58706-800": {
+    "logradouro": "Rua Severino Lustosa Morais",
+    "bairro": "Ana Leite"
+  },
+  "58708-899": {
+    "logradouro": "Área Rural",
+    "bairro": "Área Rural de Patos"
+  },
+  "58704-493": {
+    "logradouro": "Rua Abílio Melquíades da Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-606": {
+    "logradouro": "Rua Adalberto Bernardo Nunes",
+    "bairro": "Bela Vista"
+  },
+  "58704-600": {
+    "logradouro": "Rua Almir Ferreira da Cunha",
+    "bairro": "Bela Vista"
+  },
+  "58704-495": {
+    "logradouro": "Rua Antônio C Lucena",
+    "bairro": "Bela Vista"
+  },
+  "58704-412": {
+    "logradouro": "Rua Antônio Gomes da Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-620": {
+    "logradouro": "Rua Antônio Justino",
+    "bairro": "Bela Vista"
+  },
+  "58704-463": {
+    "logradouro": "Rua Antônio Macedo",
+    "bairro": "Bela Vista"
+  },
+  "58704-430": {
+    "logradouro": "Rua Bancário Jarbas Moura da Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-530": {
+    "logradouro": "Rua Braz Macena",
+    "bairro": "Bela Vista"
+  },
+  "58704-465": {
+    "logradouro": "Rua Cândido das Laranjeiras",
+    "bairro": "Bela Vista"
+  },
+  "58704-400": {
+    "logradouro": "Rua Cinco de Agosto",
+    "bairro": "Bela Vista"
+  },
+  "58704-428": {
+    "logradouro": "Rua Dom Bosco",
+    "bairro": "Bela Vista"
+  },
+  "58704-533": {
+    "logradouro": "Rua Dona Cícera Pereira da Silva",
+    "bairro": "Bela Vista"
+  },
+  "58704-608": {
+    "logradouro": "Rua Dona Estelina Oliveira Andrade",
+    "bairro": "Bela Vista"
+  },
+  "58704-655": {
+    "logradouro": "Rua Francisco Macaíba",
+    "bairro": "Bela Vista"
+  },
+  "58704-510": {
+    "logradouro": "Rua Francisco Rodrigues",
+    "bairro": "Bela Vista"
+  },
+  "58704-560": {
+    "logradouro": "Rua Francisco Vicente Araújo",
+    "bairro": "Bela Vista"
+  },
+  "58704-410": {
+    "logradouro": "Rua Galdino Guedes",
+    "bairro": "Bela Vista"
+  },
+  "58704-540": {
+    "logradouro": "Rua Hildo Menezes",
+    "bairro": "Bela Vista"
+  },
+  "58704-440": {
+    "logradouro": "Rua Horácio Nóbrega - lado ímpar",
+    "bairro": "Bela Vista"
+  },
+  "58704-580": {
+    "logradouro": "Rua Isabel Fernandes",
+    "bairro": "Bela Vista"
+  },
+  "58704-665": {
+    "logradouro": "Rua José Alves da Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-602": {
+    "logradouro": "Rua José Emídio dos Santos",
+    "bairro": "Bela Vista"
+  },
+  "58704-490": {
+    "logradouro": "Rua Joventino Machado",
+    "bairro": "Bela Vista"
+  },
+  "58704-660": {
+    "logradouro": "Rua Juca Fiscal",
+    "bairro": "Bela Vista"
+  },
+  "58704-470": {
+    "logradouro": "Rua Juvenal Ledo",
+    "bairro": "Bela Vista"
+  },
+  "58704-500": {
+    "logradouro": "Rua Juvenal Lúcio",
+    "bairro": "Bela Vista"
+  },
+  "58704-640": {
+    "logradouro": "Rua Luiz Félix Lima",
+    "bairro": "Bela Vista"
+  },
+  "58704-536": {
+    "logradouro": "Rua Manoel Alexandrino Palmeira",
+    "bairro": "Bela Vista"
+  },
+  "58704-604": {
+    "logradouro": "Rua Maria das Dores Gonçalves da Silva",
+    "bairro": "Bela Vista"
+  },
+  "58704-630": {
+    "logradouro": "Rua Moacir Leitão",
+    "bairro": "Bela Vista"
+  },
+  "58704-520": {
+    "logradouro": "Rua Olivan Queiroz",
+    "bairro": "Bela Vista"
+  },
+  "58704-570": {
+    "logradouro": "Rua Oton Fagundes de Araújo",
+    "bairro": "Bela Vista"
+  },
+  "58704-480": {
+    "logradouro": "Rua Panatis",
+    "bairro": "Bela Vista"
+  },
+  "58704-663": {
+    "logradouro": "Rua Pedro Carneiro Bastos",
+    "bairro": "Bela Vista"
+  },
+  "58704-505": {
+    "logradouro": "Rua Santa Luzia",
+    "bairro": "Bela Vista"
+  },
+  "58704-658": {
+    "logradouro": "Rua Sargento Eme Cavalcante",
+    "bairro": "Bela Vista"
+  },
+  "58704-415": {
+    "logradouro": "Rua Sargento Everaldo",
+    "bairro": "Bela Vista"
+  },
+  "58704-680": {
+    "logradouro": "Rua Sílvia Ramos Cavalcante de Araújo",
+    "bairro": "Bela Vista"
+  },
+  "58704-550": {
+    "logradouro": "Rua Tenente Ananias Vicente da Silva",
+    "bairro": "Bela Vista"
+  },
+  "58704-420": {
+    "logradouro": "Rua Terto Zacarias",
+    "bairro": "Bela Vista"
+  },
+  "58704-460": {
+    "logradouro": "Rua Titico Gomes",
+    "bairro": "Bela Vista"
+  },
+  "58704-588": {
+    "logradouro": "Rua Venâncio Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-625": {
+    "logradouro": "Travessa Antônio Justino",
+    "bairro": "Bela Vista"
+  },
+  "58704-473": {
+    "logradouro": "Travessa Antônio Vieira",
+    "bairro": "Bela Vista"
+  },
+  "58704-435": {
+    "logradouro": "Travessa Bancário Jarbas Moura da Costa",
+    "bairro": "Bela Vista"
+  },
+  "58704-535": {
+    "logradouro": "Travessa Braz Macena",
+    "bairro": "Bela Vista"
+  },
+  "58704-632": {
+    "logradouro": "Travessa Cassemiro Ricarte",
+    "bairro": "Bela Vista"
+  },
+  "58704-405": {
+    "logradouro": "Travessa Cinco de Agosto",
+    "bairro": "Bela Vista"
+  },
+  "58704-478": {
+    "logradouro": "Travessa Dona Maria Ceci Vilar",
+    "bairro": "Bela Vista"
+  },
+  "58704-477": {
+    "logradouro": "Travessa Francisco Ricarte de Carvalho",
+    "bairro": "Bela Vista"
+  },
+  "58704-425": {
+    "logradouro": "Travessa Horácio Nóbrega",
+    "bairro": "Bela Vista"
+  },
+  "58704-475": {
+    "logradouro": "Travessa Juvenal Ledo",
+    "bairro": "Bela Vista"
+  },
+  "58704-645": {
+    "logradouro": "Travessa Luiz Félix Lima",
+    "bairro": "Bela Vista"
+  },
+  "58704-485": {
+    "logradouro": "Travessa Mestre Félix",
+    "bairro": "Bela Vista"
+  },
+  "58704-555": {
+    "logradouro": "Travessa Olivan Queiroz",
+    "bairro": "Bela Vista"
+  },
+  "58704-482": {
+    "logradouro": "Travessa Piano de Sousa",
+    "bairro": "Bela Vista"
+  },
+  "58704-502": {
+    "logradouro": "Travessa Santa Luzia",
+    "bairro": "Bela Vista"
+  },
+  "58704-682": {
+    "logradouro": "Travessa Sílvia Ramos Cavalcante de Araújo",
+    "bairro": "Bela Vista"
+  },
+  "58704-468": {
+    "logradouro": "Travessa Titico Gomes",
+    "bairro": "Bela Vista"
+  },
+  "58704-200": {
+    "logradouro": "Praça Nossa Senhora de Fátima",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-240": {
+    "logradouro": "Rua Alexandre de Carvalho",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-370": {
+    "logradouro": "Rua Aluízio de Queiroz Melo",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-278": {
+    "logradouro": "Rua Anália Palmeira",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-343": {
+    "logradouro": "Rua Antônio Justino",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-050": {
+    "logradouro": "Rua Antônio Macedo",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-040": {
+    "logradouro": "Rua Antônio Urquiza",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-365": {
+    "logradouro": "Rua Bancário Jarbas Moura da Costa",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-030": {
+    "logradouro": "Rua Beltrando de Azevedo",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-090": {
+    "logradouro": "Rua Cândido das Laranjeiras",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-130": {
+    "logradouro": "Rua Carlota César",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-070": {
+    "logradouro": "Rua da Zilson Vieira de Lucena",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-038": {
+    "logradouro": "Rua Dom Pedro II",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-255": {
+    "logradouro": "Rua Doutor Enaldo Torres Fernandes",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-100": {
+    "logradouro": "Rua Doutor Rui Pereira",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-360": {
+    "logradouro": "Rua Epaminondas Rocha",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-260": {
+    "logradouro": "Rua Francisco Alves Queiroz",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-378": {
+    "logradouro": "Rua Francisco Antônio do Nascimento",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-120": {
+    "logradouro": "Rua Francisco Brandão",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-105": {
+    "logradouro": "Rua Francisco Candeias do Nascimento",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-358": {
+    "logradouro": "Rua Francisco de Assis Cabral",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-272": {
+    "logradouro": "Rua Francisco Marcelino de Morais",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-275": {
+    "logradouro": "Rua Francisco Moreira Viana",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-000": {
+    "logradouro": "Rua Horácio Nóbrega - lado par",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-270": {
+    "logradouro": "Rua Inácio Fernandes Nóbrega",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-390": {
+    "logradouro": "Rua João Avelino",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-140": {
+    "logradouro": "Rua João Domingos de Queiroz",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-290": {
+    "logradouro": "Rua João Rodrigues Alves",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-362": {
+    "logradouro": "Rua Joaquim Luiz Serpa",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-060": {
+    "logradouro": "Rua Jornalista Assis Chateaubriand",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-160": {
+    "logradouro": "Rua José Aires de Lucena",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-285": {
+    "logradouro": "Rua José Carlos A Freitas",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-045": {
+    "logradouro": "Rua José Willians Braga Júnior",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-230": {
+    "logradouro": "Rua Juvenal Lúcio",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-315": {
+    "logradouro": "Rua Laura de Medeiros Andrade",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-220": {
+    "logradouro": "Rua Laurênio de Queiroz",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-325": {
+    "logradouro": "Rua Laurindo Nunes Perinico",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-310": {
+    "logradouro": "Rua Luís José",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-340": {
+    "logradouro": "Rua Major Cícero Sátiro",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-320": {
+    "logradouro": "Rua Manoel Medeiros",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-170": {
+    "logradouro": "Rua Manoel Pereira Neto",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-058": {
+    "logradouro": "Rua Mestre Chiquinho",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-330": {
+    "logradouro": "Rua Moacir Leitão",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-110": {
+    "logradouro": "Rua Panatis",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-080": {
+    "logradouro": "Rua Paulino Gondin",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-020": {
+    "logradouro": "Rua Pedra Branca",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-373": {
+    "logradouro": "Rua Pedro Nicácio",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-450": {
+    "logradouro": "Rua Pedro Nicácio",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-150": {
+    "logradouro": "Rua Pedro Peixoto",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-350": {
+    "logradouro": "Rua Plácido Magalhães",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-042": {
+    "logradouro": "Rua Professora Antônia Barbosa Rodrigues",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-010": {
+    "logradouro": "Rua Rocha Palmeira",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-250": {
+    "logradouro": "Rua Santa Luzia",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-274": {
+    "logradouro": "Rua Severina da Costa",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-025": {
+    "logradouro": "Rua Severino Lopes da Silva",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-380": {
+    "logradouro": "Rua Titico Gomes",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-280": {
+    "logradouro": "Rua Vereador Né Marinho",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-210": {
+    "logradouro": "Rua Vereador Severino Fernando de Assis",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-109": {
+    "logradouro": "Travessa Antônio Carneiro de Lucena",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-055": {
+    "logradouro": "Travessa Antônio Macedo",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-035": {
+    "logradouro": "Travessa Beltrando de Azevedo",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-152": {
+    "logradouro": "Travessa Biribiu",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-135": {
+    "logradouro": "Travessa Carlota César",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-333": {
+    "logradouro": "Travessa Cassimiro Ricart",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-075": {
+    "logradouro": "Travessa da Palmeira",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-133": {
+    "logradouro": "Travessa Francisca Maria da Silva",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-190": {
+    "logradouro": "Travessa Francisco Alves Queiroz",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-125": {
+    "logradouro": "Travessa Francisco Brandão",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-003": {
+    "logradouro": "Travessa Horácio Nóbrega",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-233": {
+    "logradouro": "Travessa José Honório de Sousa",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-235": {
+    "logradouro": "Travessa Juvenal Lúcio",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-225": {
+    "logradouro": "Travessa Laurênio de Queiroz",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-175": {
+    "logradouro": "Travessa Manoel Pereira Neto",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-113": {
+    "logradouro": "Travessa Mestre Félix",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-335": {
+    "logradouro": "Travessa Moacir Leitão",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-115": {
+    "logradouro": "Travessa Panatis",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-155": {
+    "logradouro": "Travessa Pedro Peixoto",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-005": {
+    "logradouro": "Travessa Piano de Sousa",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-032": {
+    "logradouro": "Travessa Severino Lopes da Silva",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-065": {
+    "logradouro": "Travessa Tenente José Dinoá",
+    "bairro":"Belo Horizonte"
+  },
+  "58704-385": {
+    "logradouro": "Travessa Titico Gomes",
+    "bairro":"Belo Horizonte"
+  },
+  "58701-746": {
+    "logradouro": "Parada Pedro Morais de Medeiros Neto",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-732": {
+    "logradouro": "Rua Antônia Marinho Filgueiras",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-710": {
+    "logradouro": "Rua Antônio Martins",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-720": {
+    "logradouro": "Rua Antônio Pininho de Oliveira",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-642": {
+    "logradouro": "Rua Antônio Soares da Silva",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-711": {
+    "logradouro": "Rua Arnaldo Laureano dos Santos",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-686": {
+    "logradouro": "Rua Áurea Andrade de Góes",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-644": {
+    "logradouro": "Rua Biró Cirilo",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-748": {
+    "logradouro": "Rua Cleonice Medeiros de Maria",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-600": {
+    "logradouro": "Rua Deca Simplício",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-602": {
+    "logradouro": "Rua Doutor Romero Abdon Queiroz da Nóbrega",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-747": {
+    "logradouro": "Rua Edvaldo Gomes Damascena",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-753": {
+    "logradouro": "Rua Egídio Gomes Bezerra",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-694": {
+    "logradouro": "Rua Francisco de Assis Santos",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-670": {
+    "logradouro": "Rua João Odorico",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-744": {
+    "logradouro": "Rua Joaquim Araújo de Lucena",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-620": {
+    "logradouro": "Rua Joaquim Dedé",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-695": {
+    "logradouro": "Rua Joaquim Pereira de Lima",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-805": {
+    "logradouro": "Rua Joel Dantas",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-660": {
+    "logradouro": "Rua Jorge Gurgel",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-630": {
+    "logradouro": "Rua José Mesquita",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-687": {
+    "logradouro": "Rua José Miguel de Góes",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-718": {
+    "logradouro": "Rua José Silva",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-712": {
+    "logradouro": "Rua Júlia Almeida de Medeiros",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-726": {
+    "logradouro": "Rua Luiz Vieira de Souza",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-883": {
+    "logradouro": "Rua Manoel Antônio Filho - Lot Jd Espanha",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-605": {
+    "logradouro": "Rua Manoel Pereira Filho",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-745": {
+    "logradouro": "Rua Maria Araújo Lucena dos Santos",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-692": {
+    "logradouro": "Rua Maria de Lourdes Joca Cabral",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-724": {
+    "logradouro": "Rua Maria Gorete Oliveira Lins",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-608": {
+    "logradouro": "Rua Maria Jovita Oliveira",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-685": {
+    "logradouro": "Rua Mariana Lacerda Leite",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-721": {
+    "logradouro": "Rua Minelvina Simões Candeia",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-750": {
+    "logradouro": "Rua Nestor Pereira",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-749": {
+    "logradouro": "Rua Olívia Maria de Araújo Oliveira",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-723": {
+    "logradouro": "Rua Osni Wanderley",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-880": {
+    "logradouro": "Rua Pedro Albino de Medeiros",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-730": {
+    "logradouro": "Rua Pedro Rosa",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-808": {
+    "logradouro": "Rua Petrônio Lucena Barbosa",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-754": {
+    "logradouro": "Rua Raimundo Gomes de Lima",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-631": {
+    "logradouro": "Rua Raulino Lúcio da Nóbrega",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-610": {
+    "logradouro": "Rua Semeão Gentil",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-632": {
+    "logradouro": "Rua Severina Barreto de Medeiros Cunha",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-770": {
+    "logradouro": "Rua Tenente Pedro do Carmo",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-725": {
+    "logradouro": "Rua Terezinha Brito de Lima",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-650": {
+    "logradouro": "Rua Vereador Severino Rodrigues",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-690": {
+    "logradouro": "Rua Zózimo Gurgel",
+    "bairro":"Bivar Olinto"
+  },
+  "58701-796": {
+    "logradouro": "Travessa Batuel Palmeira",
+    "bairro":"Bivar Olinto"
+  },
+  "58700-370": {
+    "logradouro": "Avenida Barão do Rio Branco",
+    "bairro":"Brasília"
+  },
+  "58700-360": {
+    "logradouro": "Avenida Benjamin Constant",
+    "bairro":"Brasília"
+  },
+  "58700-330": {
+    "logradouro": "Avenida Vidal de Negreiros",
+    "bairro":"Brasília"
+  },
+  "58700-470": {
+    "logradouro": "Rua Ana Leite Nóbrega",
+    "bairro":"Brasília"
+  },
+  "58700-410": {
+    "logradouro": "Rua Bossuet Wanderley - de 400/401 ao fim",
+    "bairro":"Brasília"
+  },
+  "58700-484": {
+    "logradouro": "Rua Coronel Miguel Sátiro",
+    "bairro":"Brasília"
+  },
+  "58700-320": {
+    "logradouro": "Rua Darcílio Wanderley da Nóbrega",
+    "bairro":"Brasília"
+  },
+  "58700-313": {
+    "logradouro": "Rua Domingos Lugo",
+    "bairro":"Brasília"
+  },
+  "58700-390": {
+    "logradouro": "Rua Doutor Onaldo de Queiroz",
+    "bairro":"Brasília"
+  },
+  "58700-350": {
+    "logradouro": "Rua Doutor Pedro Firmino",
+    "bairro":"Brasília"
+  },
+  "58700-490": {
+    "logradouro": "Rua Expedito Rodrigues",
+    "bairro":"Brasília"
+  },
+  "58700-340": {
+    "logradouro": "Rua Fenelon Bonavides",
+    "bairro":"Brasília"
+  },
+  "58700-482": {
+    "logradouro": "Rua Francisco Macena",
+    "bairro":"Brasília"
+  },
+  "58700-480": {
+    "logradouro": "Rua Galin Assis - lado par",
+    "bairro":"Brasília"
+  },
+  "58700-315": {
+    "logradouro": "Rua Godofredo Cunha Medeiros",
+    "bairro":"Brasília"
+  },
+  "58700-400": {
+    "logradouro": "Rua João de Barros",
+    "bairro":"Brasília"
+  },
+  "58700-380": {
+    "logradouro": "Rua João Olinto",
+    "bairro":"Brasília"
+  },
+  "58700-318": {
+    "logradouro": "Rua João Soares",
+    "bairro":"Brasília"
+  },
+  "58700-488": {
+    "logradouro": "Rua Pedro Izidro",
+    "bairro":"Brasília"
+  },
+  "58700-418": {
+    "logradouro": "Rua Peregrino Filho",
+    "bairro":"Brasília"
+  },
+  "58700-300": {
+    "logradouro": "Rua Presidente Floriano Peixoto - lado par",
+    "bairro":"Brasília"
+  },
+  "58700-420": {
+    "logradouro": "Rua Presidente Juscelino Kubitschek",
+    "bairro":"Brasília"
+  },
+  "58700-486": {
+    "logradouro": "Rua Tiradentes",
+    "bairro":"Brasília"
+  },
+  "58700-415": {
+    "logradouro": "Travessa Bossuet Wanderley",
+    "bairro":"Brasília"
+  },
+  "58700-151": {
+    "logradouro": "2ª Travessa Oliveira Ledo",
+    "bairro": "Centro"
+  },
+  "58700-075": {
+    "logradouro": "Avenida Barão do Rio Branco",
+    "bairro": "Centro"
+  },
+  "58700-071": {
+    "logradouro": "Avenida Doutor Pedro Firmino",
+    "bairro": "Centro"
+  },
+  "58700-002": {
+    "logradouro": "Avenida Solon de Lucena - lado par",
+    "bairro": "Centro"
+  },
+  "58700-004": {
+    "logradouro": "Avenida Solon de Lucena - lado ímpar",
+    "bairro": "Centro"
+  },
+  "58700-245": {
+    "logradouro": "Avenida Vidal de Negreiros",
+    "bairro": "Centro"
+  },
+  "58700-124": {
+    "logradouro": "Largo do Mercado Central",
+    "bairro": "Centro"
+  },
+  "58700-210": {
+    "logradouro": "Praça Alcides Carneiro",
+    "bairro": "Centro"
+  },
+  "58700-190": {
+    "logradouro": "Praça Estação",
+    "bairro": "Centro"
+  },
+  "58700-280": {
+    "logradouro": "Praça Independência",
+    "bairro": "Centro"
+  },
+  "58700-230": {
+    "logradouro": "Praça Presidente Getúlio Vargas",
+    "bairro": "Centro"
+  },
+  "58700-590": {
+    "logradouro": "Praça Presidente João Pessoa",
+    "bairro": "Centro"
+  },
+  "58700-630": {
+    "logradouro": "Rua Antônio Fragoso - lado par",
+    "bairro": "Centro"
+  },
+  "58700-153": {
+    "logradouro": "Rua Antônio José Leite - lado par",
+    "bairro": "Centro"
+  },
+  "58700-158": {
+    "logradouro": "Rua Antônio Justiniano Nóbrega",
+    "bairro": "Centro"
+  },
+  "58700-175": {
+    "logradouro": "Rua Beltrando de Azevedo",
+    "bairro": "Centro"
+  },
+  "58700-085": {
+    "logradouro": "Rua Bossuet Wanderley - até 398/399",
+    "bairro": "Centro"
+  },
+  "58700-500": {
+    "logradouro": "Rua Capitão Ló",
+    "bairro": "Centro"
+  },
+  "58700-570": {
+    "logradouro": "Rua Cônego Bernardo",
+    "bairro": "Centro"
+  },
+  "58700-530": {
+    "logradouro": "Rua Coronel Miguel Sátiro",
+    "bairro": "Centro"
+  },
+  "58700-650": {
+    "logradouro": "Rua das Espinharas",
+    "bairro": "Centro"
+  },
+  "58700-670": {
+    "logradouro": "Rua Dezoito do Forte",
+    "bairro": "Centro"
+  },
+  "58700-560": {
+    "logradouro": "Rua do Nego",
+    "bairro": "Centro"
+  },
+  "58700-010": {
+    "logradouro": "Rua do Prado",
+    "bairro": "Centro"
+  },
+  "58700-180": {
+    "logradouro": "Rua Dom Pedro II",
+    "bairro": "Centro"
+  },
+  "58700-460": {
+    "logradouro": "Rua Doutor Duarte Dantas",
+    "bairro": "Centro"
+  },
+  "58700-050": {
+    "logradouro": "Rua Doutor José Genuíno",
+    "bairro": "Centro"
+  },
+  "58700-070": {
+    "logradouro": "Rua Doutor Pedro Firmino",
+    "bairro": "Centro"
+  },
+  "58700-200": {
+    "logradouro": "Rua Duque de Caxias",
+    "bairro": "Centro"
+  },
+  "58700-060": {
+    "logradouro": "Rua Escritor Rui Barbosa",
+    "bairro": "Centro"
+  },
+  "58700-605": {
+    "logradouro": "Rua Felipe Camarão",
+    "bairro": "Centro"
+  },
+  "58700-030": {
+    "logradouro": "Rua Felizardo Leite",
+    "bairro": "Centro"
+  },
+  "58700-170": {
+    "logradouro": "Rua Frei Caneca",
+    "bairro": "Centro"
+  },
+  "58700-600": {
+    "logradouro": "Rua Frei João Machado",
+    "bairro": "Centro"
+  },
+  "58700-100": {
+    "logradouro": "Rua Frei Martinho",
+    "bairro": "Centro"
+  },
+  "58700-468": {
+    "logradouro": "Rua Galin Assis - lado ímpar",
+    "bairro": "Centro"
+  },
+  "58700-552": {
+    "logradouro": "Rua Herculano Rodrigues de Oliveira",
+    "bairro": "Centro"
+  },
+  "58700-168": {
+    "logradouro": "Rua Jaime Lúcio de Medeiros",
+    "bairro": "Centro"
+  },
+  "58700-090": {
+    "logradouro": "Rua Jeová Bezerra",
+    "bairro": "Centro"
+  },
+  "58700-080": {
+    "logradouro": "Rua João da Mata",
+    "bairro": "Centro"
+  },
+  "58700-250": {
+    "logradouro": "Rua José Gomes Alves",
+    "bairro": "Centro"
+  },
+  "58700-120": {
+    "logradouro": "Rua Leôncio Wanderley",
+    "bairro": "Centro"
+  },
+  "58700-220": {
+    "logradouro": "Rua Major Wanderley",
+    "bairro": "Centro"
+  },
+  "58700-430": {
+    "logradouro": "Rua Manoel Gomes de Lima",
+    "bairro": "Centro"
+  },
+  "58700-515": {
+    "logradouro": "Rua Manoel Oliveira",
+    "bairro": "Centro"
+  },
+  "58700-550": {
+    "logradouro": "Rua Marechal Deodoro da Fonseca",
+    "bairro": "Centro"
+  },
+  "58700-150": {
+    "logradouro": "Rua Oliveira Ledo",
+    "bairro": "Centro"
+  },
+  "58700-240": {
+    "logradouro": "Rua Paulo Mendes",
+    "bairro": "Centro"
+  },
+  "58700-040": {
+    "logradouro": "Rua Pedro Caetano",
+    "bairro": "Centro"
+  },
+  "58700-540": {
+    "logradouro": "Rua Pedro Izidro",
+    "bairro": "Centro"
+  },
+  "58700-160": {
+    "logradouro": "Rua Peregrino de Carvalho",
+    "bairro": "Centro"
+  },
+  "58700-450": {
+    "logradouro": "Rua Peregrino Filho",
+    "bairro": "Centro"
+  },
+  "58700-020": {
+    "logradouro": "Rua Presidente Epitácio Pessoa",
+    "bairro": "Centro"
+  },
+  "58700-235": {
+    "logradouro": "Rua Presidente Floriano Peixoto - lado ímpar",
+    "bairro": "Centro"
+  },
+  "58700-233": {
+    "logradouro": "Rua Presidente Getúlio Vargas",
+    "bairro": "Centro"
+  },
+  "58700-440": {
+    "logradouro": "Rua Roldão Meira",
+    "bairro": "Centro"
+  },
+  "58700-015": {
+    "logradouro": "Rua São José",
+    "bairro": "Centro"
+  },
+  "58700-140": {
+    "logradouro": "Rua Severino Batista Primo",
+    "bairro": "Centro"
+  },
+  "58700-154": {
+    "logradouro": "Rua Severino Dutra",
+    "bairro": "Centro"
+  },
+  "58700-130": {
+    "logradouro": "Rua Severino Martins",
+    "bairro": "Centro"
+  },
+  "58700-520": {
+    "logradouro": "Rua Tiburtino Leite",
+    "bairro": "Centro"
+  },
+  "58700-510": {
+    "logradouro": "Rua Tiradentes",
+    "bairro": "Centro"
+  },
+  "58700-110": {
+    "logradouro": "Rua Vereador Joaquim Leitão",
+    "bairro": "Centro"
+  },
+  "58700-580": {
+    "logradouro": "Rua Vinte e Seis de Julho",
+    "bairro": "Centro"
+  },
+  "58700-610": {
+    "logradouro": "Rua Vinte e Seis de Outubro",
+    "bairro": "Centro"
+  },
+  "58700-260": {
+    "logradouro": "Terminal Rodoviário",
+    "bairro": "Centro"
+  },
+  "58700-082": {
+    "logradouro": "Travessa Bossuet Wanderley",
+    "bairro": "Centro"
+  },
+  "58700-123": {
+    "logradouro": "Travessa Cruzeiro da Paz",
+    "bairro": "Centro"
+  },
+  "58700-183": {
+    "logradouro": "Travessa Dom Pedro II",
+    "bairro": "Centro"
+  },
+  "58700-008": {
+    "logradouro": "Travessa Doutor Dionísio",
+    "bairro": "Centro"
+  },
+  "58700-055": {
+    "logradouro": "Travessa Doutor José Genuíno",
+    "bairro": "Centro"
+  },
+  "58700-035": {
+    "logradouro": "Travessa Felizardo Leite",
+    "bairro": "Centro"
+  },
+  "58700-513": {
+    "logradouro": "Travessa Francisco Macena",
+    "bairro": "Centro"
+  },
+  "58700-045": {
+    "logradouro": "Travessa Inácio da Catingueira",
+    "bairro": "Centro"
+  },
+  "58700-185": {
+    "logradouro": "Travessa João Ourives",
+    "bairro": "Centro"
+  },
+  "58700-122": {
+    "logradouro": "Travessa Leôncio Wanderley",
+    "bairro": "Centro"
+  },
+  "58700-205": {
+    "logradouro": "Travessa Marcone Coutinho",
+    "bairro": "Centro"
+  },
+  "58700-125": {
+    "logradouro": "Travessa Miguel Mota",
+    "bairro": "Centro"
+  },
+  "58700-165": {
+    "logradouro": "Travessa Oliveira Ledo",
+    "bairro": "Centro"
+  },
+  "58700-455": {
+    "logradouro": "Travessa Peregrino Filho",
+    "bairro": "Centro"
+  },
+  "58700-115": {
+    "logradouro": "Travessa Vereador Joaquim Leitão",
+    "bairro": "Centro"
+  },
+  "58700-585": {
+    "logradouro": "Travessa Vinte e Seis de Julho",
+    "bairro": "Centro"
+  },
+  "58700-465": {
+    "logradouro": "Travessa Zeca Vilar",
+    "bairro": "Centro"
+  },
+  "58701-790":	{
+    "logradouro": "Rua Manoel Pereira Filho",
+    "bairro": "Conjunto Bivar Olinto"
+  },
+  "58705-360": {
+    "logradouro": "Rua dos Pegas",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-310": {
+    "logradouro": "Rua Doutor Ageu de Castro",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-270": {
+    "logradouro": "Rua Estudante Josinaldo Targino",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-250": {
+    "logradouro": "Rua Gumercindo Leite",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-290": {
+    "logradouro": "Rua Humberto do Bandolim",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-200": {
+    "logradouro": "Rua João Gomes",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-240": {
+    "logradouro": "Rua José Borges",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-320": {
+    "logradouro": "Rua José Clementino",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-340": {
+    "logradouro": "Rua Pedro Celestino",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-330": {
+    "logradouro": "Rua Pedro Inácio",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-350": {
+    "logradouro": "Rua Severino Inácio",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-210": {
+    "logradouro": "Rua Violonista Antônio Emiliano",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-230": {
+    "logradouro": "Rua Violonista Antônio Moreno",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-260": {
+    "logradouro": "Rua Wilson Jansen",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-220": {
+    "logradouro": "Rua Zuza Cabral",
+    "bairro": "Conjunto Noé Trajano"
+  },
+  "58705-760": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Distrito Industrial"
+  },
+  "58705-750": {
+    "logradouro":"Rua Carreiro",
+    "bairro":"Distrito Industrial"
+  },
+  "58705-820": {
+    "logradouro":"Avenida Paraíba",
+    "bairro":"Estados"
+  },
+  "58705-833": {
+    "logradouro":"Rua Acre",
+    "bairro":"Estados"
+  },
+  "58705-802": {
+    "logradouro":"Rua Alagoas",
+    "bairro":"Estados"
+  },
+  "58705-828": {
+    "logradouro":"Rua Amapá",
+    "bairro":"Estados"
+  },
+  "58705-831": {
+    "logradouro":"Rua Amazonas",
+    "bairro":"Estados"
+  },
+  "58705-794": {
+    "logradouro":"Rua Bahia",
+    "bairro":"Estados"
+  },
+  "58705-832": {
+    "logradouro":"Rua Brasília",
+    "bairro":"Estados"
+  },
+  "58705-824": {
+    "logradouro":"Rua Ceará",
+    "bairro":"Estados"
+  },
+  "58705-842": {
+    "logradouro":"Rua Escritor Adhemar da Nóbrega",
+    "bairro":"Estados"
+  },
+  "58705-818": {
+    "logradouro":"Rua Escritor Anníbal Bonavides",
+    "bairro":"Estados"
+  },
+  "58705-841": {
+    "logradouro":"Rua Escritor João Norberto",
+    "bairro":"Estados"
+  },
+  "58705-853": {
+    "logradouro":"Rua Escritor José Antônio Urquiza",
+    "bairro":"Estados"
+  },
+  "58705-854": {
+    "logradouro":"Rua Escritor Luís Wanderley Torres",
+    "bairro":"Estados"
+  },
+  "58705-848": {
+    "logradouro":"Rua Escritor Nelson Lustoza Cabral",
+    "bairro":"Estados"
+  },
+  "58705-858": {
+    "logradouro":"Rua Escritor Paulo Fernandes Bonavides",
+    "bairro":"Estados"
+  },
+  "58705-845": {
+    "logradouro":"Rua Escritor Roberto Gentil",
+    "bairro":"Estados"
+  },
+  "58705-795": {
+    "logradouro":"Rua Espírito Santo",
+    "bairro":"Estados"
+  },
+  "58705-801": {
+    "logradouro":"Rua Goiás",
+    "bairro":"Estados"
+  },
+  "58705-836": {
+    "logradouro":"Rua José Claudino da Nóbrega",
+    "bairro":"Estados"
+  },
+  "58705-826": {
+    "logradouro":"Rua Maranhão",
+    "bairro":"Estados"
+  },
+  "58705-835": {
+    "logradouro":"Rua Mato Grosso",
+    "bairro":"Estados"
+  },
+  "58705-800": {
+    "logradouro":"Rua Mato Grosso do Sul",
+    "bairro":"Estados"
+  },
+  "58705-830": {
+    "logradouro":"Rua Minas Gerais",
+    "bairro":"Estados"
+  },
+  "58705-838": {
+    "logradouro":"Rua Osmundo Wanderley da Nóbrega",
+    "bairro":"Estados"
+  },
+  "58705-827": {
+    "logradouro":"Rua Pará",
+    "bairro":"Estados"
+  },
+  "58705-799": {
+    "logradouro":"Rua Paraná",
+    "bairro":"Estados"
+  },
+  "58705-809": {
+    "logradouro":"Rua Pernambuco",
+    "bairro":"Estados"
+  },
+  "58705-825": {
+    "logradouro":"Rua Piauí",
+    "bairro":"Estados"
+  },
+  "58705-846": {
+    "logradouro":"Rua Poeta Cesário José de Pontes",
+    "bairro":"Estados"
+  },
+  "58705-850": {
+    "logradouro":"Rua Poeta Escritor Ronald de Queiroz",
+    "bairro":"Estados"
+  },
+  "58705-844": {
+    "logradouro":"Rua Poeta João Severo de Lima",
+    "bairro":"Estados"
+  },
+  "58705-803": {
+    "logradouro":"Rua Poeta Júlio Veríssimo Gomes",
+    "bairro":"Estados"
+  },
+  "58705-849": {
+    "logradouro":"Rua Poeta Manuel Galdino Bandeira",
+    "bairro":"Estados"
+  },
+  "58705-813": {
+    "logradouro":"Rua Poeta Manuel Pereira Sobrinho",
+    "bairro":"Estados"
+  },
+  "58705-843": {
+    "logradouro":"Rua Poeta Manuel Quirino",
+    "bairro":"Estados"
+  },
+  "58705-837": {
+    "logradouro":"Rua Poeta Odilon Nunes de Sá",
+    "bairro":"Estados"
+  },
+  "58705-857": {
+    "logradouro":"Rua Poeta Polion Carneiro",
+    "bairro":"Estados"
+  },
+  "58705-812": {
+    "logradouro":"Rua Poeta Severino Perigo",
+    "bairro":"Estados"
+  },
+  "58705-855": {
+    "logradouro":"Rua Poeta Silvino Pirauá de Lima",
+    "bairro":"Estados"
+  },
+  "58705-852": {
+    "logradouro":"Rua Poetisa Francisca Barbosa",
+    "bairro":"Estados"
+  },
+  "58705-865": {
+    "logradouro":"Rua Rio de Janeiro",
+    "bairro":"Estados"
+  },
+  "58705-823": {
+    "logradouro":"Rua Rio Grande do Norte",
+    "bairro":"Estados"
+  },
+  "58705-790": {
+    "logradouro": "Rua Rio Grande do Sul - até 998/999",
+    "bairro": "Estados"
+  },
+  "58705-815": {
+    "logradouro": "Rua Rio Grande do Sul - de 1000/1001 ao fim",
+    "bairro": "Estados"
+  },
+  "58705-834": {
+    "logradouro":"Rua Rondônia",
+    "bairro":"Estados"
+  },
+  "58705-811": {
+    "logradouro":"Rua Roraima",
+    "bairro":"Estados"
+  },
+  "58705-797": {
+    "logradouro":"Rua Santa Catarina",
+    "bairro":"Estados"
+  },
+  "58705-870": {
+    "logradouro":"Rua São Paulo",
+    "bairro":"Estados"
+  },
+  "58705-810": {
+    "logradouro":"Rua Sergipe",
+    "bairro":"Estados"
+  },
+  "58705-840": {
+    "logradouro":"Rua Tarcísio Meira César",
+    "bairro":"Estados"
+  },
+  "58705-796": {
+    "logradouro":"Rua Tocantins",
+    "bairro":"Estados"
+  },
+  "58700-270": {
+    "logradouro":"Rua Domingo Lugo",
+    "bairro":"Jardim Califórnia"
+  },
+  "58700-290": {
+    "logradouro":"Rua Godofredo Medeiros",
+    "bairro":"Jardim Califórnia"
+  },
+  "58700-310": {
+    "logradouro":"Rua João Soares",
+    "bairro":"Jardim Califórnia"
+  },
+  "58705-010": {
+    "logradouro":"Avenida Áustria",
+    "bairro":"Jardim Europa"
+  },
+  "58705-020": {
+    "logradouro":"Avenida Edileuza Lopes de Lima",
+    "bairro":"Jardim Europa"
+  },
+  "58705-090": {
+    "logradouro":"Avenida França",
+    "bairro":"Jardim Europa"
+  },
+  "58705-060": {
+    "logradouro":"Avenida Grécia",
+    "bairro":"Jardim Europa"
+  },
+  "58705-100": {
+    "logradouro":"Avenida Holanda",
+    "bairro":"Jardim Europa"
+  },
+  "58705-120": {
+    "logradouro":"Avenida Polônia",
+    "bairro":"Jardim Europa"
+  },
+  "58705-062": {
+    "logradouro":"Rua Adalberto Bernardo Nunes",
+    "bairro":"Jardim Europa"
+  },
+  "58705-032": {
+    "logradouro":"Rua Almir Ferreira da Cunha",
+    "bairro":"Jardim Europa"
+  },
+  "58705-098": {
+    "logradouro":"Rua Anchieta Leitão Torres de Araújo",
+    "bairro":"Jardim Europa"
+  },
+  "58705-050": {
+    "logradouro":"Rua Carlos Dantas Trigueiro",
+    "bairro":"Jardim Europa"
+  },
+  "58705-040": {
+    "logradouro":"Rua Dorgival de Souza Cavalcante",
+    "bairro":"Jardim Europa"
+  },
+  "58705-070": {
+    "logradouro":"Rua Geraldo Geraldino de Araújo",
+    "bairro":"Jardim Europa"
+  },
+  "58705-077": {
+    "logradouro":"Rua Horácio Nóbrega - lado ímpar",
+    "bairro": "Jardim Europa"
+  },
+  "58705-075": {
+    "logradouro":"Rua Iugoslávia",
+    "bairro":"Jardim Europa"
+  },
+  "58705-080": {
+    "logradouro":"Rua João Gomes",
+    "bairro":"Jardim Europa"
+  },
+  "58705-052": {
+    "logradouro":"Rua Joaquim Lilioso de Lucena",
+    "bairro":"Jardim Europa"
+  },
+  "58705-110": {
+    "logradouro":"Rua José Francisco Nunes",
+    "bairro":"Jardim Europa"
+  },
+  "58705-035": {
+    "logradouro":"Rua José Rodrigues da Silva Neto",
+    "bairro":"Jardim Europa"
+  },
+  "58705-025": {
+    "logradouro":"Rua Laurentino Pereira da Silva",
+    "bairro":"Jardim Europa"
+  },
+  "58705-030": {
+    "logradouro":"Rua Ricardo Felipe de Sousa",
+    "bairro":"Jardim Europa"
+  },
+  "58705-000": {
+    "logradouro":"Rua Sebastião Marcelino Sobrinho",
+    "bairro":"Jardim Europa"
+  },
+  "58705-055": {
+    "logradouro":"Rua Severina Nunes Ferreira",
+    "bairro":"Jardim Europa"
+  },
+  "58705-072": {
+    "logradouro":"Rua Tailândia",
+    "bairro":"Jardim Europa"
+  },
+  "58704-300": {
+    "logradouro":"Rua Severina da Costa",
+    "bairro":"Jardim Lacerda"
+  },
+  "58705-600": {
+    "logradouro":"Avenida Cateis",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-650": {
+    "logradouro":"Avenida das Laranjeiras",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-586": {
+    "logradouro":"Avenida França",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-500": {
+    "logradouro":"Avenida Magnólia",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-620": {
+    "logradouro":"Avenida Morumbis",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-555": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-578": {
+    "logradouro":"Rua Antônio de Lira Santos",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-602": {
+    "logradouro":"Rua Antônio Emídio Rodrigues",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-540": {
+    "logradouro":"Rua Antônio Ferreira dos Santos",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-575": {
+    "logradouro":"Rua Antônio Torres de Araújo",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-640": {
+    "logradouro":"Rua Aureo Clemente Guedes",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-606": {
+    "logradouro":"Rua Áureo Queiroz Magalhães",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-572": {
+    "logradouro":"Rua Cabo Ademar Bezerra dos Santos",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-506": {
+    "logradouro":"Rua Cirilo Garapa",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-630": {
+    "logradouro":"Rua das Acácias",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-610": {
+    "logradouro":"Rua dos Flamboyants",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-530": {
+    "logradouro":"Rua dos Lírios",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-626": {
+    "logradouro":"Rua Doutor José Roberto Skelmenzi",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-594": {
+    "logradouro":"Rua Doutor Leido Antão da Silva",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-570": {
+    "logradouro":"Rua Doutora Vilani Kehrle Szelmenzi",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-647": {
+    "logradouro":"Rua Emília Medeiros Dantas",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-582": {
+    "logradouro":"Rua Enfermeira Marlene de Azevedo Barbosa",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-616": {
+    "logradouro":"Rua Flávio de Medeiros Damasceno",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-656": {
+    "logradouro":"Rua Francisca Medeiros de Lucena",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-625": {
+    "logradouro":"Rua Francisco da Silva Fernandes",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-680": {
+    "logradouro":"Rua Jaracatias",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-618": {
+    "logradouro":"Rua Joana Formiga de Sousa",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-510": {
+    "logradouro":"Rua João Everaldo Pereira Lucena",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-587": {
+    "logradouro":"Rua José Caetano de Lucena",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-520": {
+    "logradouro":"Rua José de Anchieta da Silva Pereira",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-580": {
+    "logradouro":"Rua José Vitoriano Barbosa",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-622": {
+    "logradouro":"Rua Lamarco Cordeiro da Silva",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-552": {
+    "logradouro":"Rua Luzia Emiliano da Silva",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-670": {
+    "logradouro":"Rua Majorama",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-644": {
+    "logradouro":"Rua Manoel Crispim de Araújo",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-624": {
+    "logradouro":"Rua Maria das Dores Cavalcante Silva",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-643": {
+    "logradouro":"Rua Maria das Graças Medeiros",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-550": {
+    "logradouro":"Rua Osvaldo Caetano",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-592": {
+    "logradouro":"Rua Otávio Horácio de Medeiros",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-604": {
+    "logradouro":"Rua Pedro Candeia de Lima",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-660": {
+    "logradouro":"Rua Raimundo Cândido Cavalcanti",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-584": {
+    "logradouro":"Rua Raylson Kevin Alves de Araújo",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-560": {
+    "logradouro":"Rua Robério Vieira de Medeiros",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-593": {
+    "logradouro":"Rua Severina Leopoldina de Medeiros",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-590": {
+    "logradouro":"Rua Severino Ayres de Araújo",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-576": {
+    "logradouro":"Rua Vicente Lourenço de Souza",
+    "bairro":"Jardim Magnólia"
+  },
+  "58705-653": {
+    "logradouro":"Rua Wellington Medeiros de Lucena",
+    "bairro":"Jardim Magnólia"
+  },
+  "58704-180": {
+    "logradouro":"Rua Francisco Candeia do Nascimento",
+    "bairro":"Jardim Queiroz"
+  },
+  "58707-230": {
+    "logradouro":"Rua Alaíde Medeiros de Lucena",
+    "bairro":"Jatobá"
+  },
+  "58707-343": {
+    "logradouro":"Rua Albertina Dantas",
+    "bairro":"Jatobá"
+  },
+  "58707-490": {
+    "logradouro":"Rua Aloísio Araújo",
+    "bairro":"Jatobá"
+  },
+  "58707-090": {
+    "logradouro":"Rua Anatildes Lucena",
+    "bairro":"Jatobá"
+  },
+  "58707-415": {
+    "logradouro":"Rua Anatildes Lucena",
+    "bairro":"Jatobá"
+  },
+  "58707-210": {
+    "logradouro":"Rua Antônio Barreto",
+    "bairro":"Jatobá"
+  },
+  "58707-400": {
+    "logradouro":"Rua Antônio Gonçalves",
+    "bairro":"Jatobá"
+  },
+  "58707-383": {
+    "logradouro":"Rua Antônio José",
+    "bairro":"Jatobá"
+  },
+  "58707-435": {
+    "logradouro":"Rua Antônio Moisés Amorim",
+    "bairro":"Jatobá"
+  },
+  "58707-212": {
+    "logradouro":"Rua Antônio Torres",
+    "bairro":"Jatobá"
+  },
+  "58707-260": {
+    "logradouro":"Rua Dinamérico Palmeira",
+    "bairro":"Jatobá"
+  },
+  "58707-390": {
+    "logradouro":"Rua Dino Guedes",
+    "bairro":"Jatobá"
+  },
+  "58707-380": {
+    "logradouro":"Rua Donato Lócio",
+    "bairro":"Jatobá"
+  },
+  "58707-200": {
+    "logradouro":"Rua Elpídio Portela",
+    "bairro":"Jatobá"
+  },
+  "58707-232": {
+    "logradouro":"Rua Francisco Jovita Oliveira",
+    "bairro":"Jatobá"
+  },
+  "58707-222": {
+    "logradouro":"Rua Francisco Paulo Licarião",
+    "bairro":"Jatobá"
+  },
+  "58707-070": {
+    "logradouro":"Rua Frei Manoel",
+    "bairro":"Jatobá"
+  },
+  "58707-418": {
+    "logradouro":"Rua Frei Manoel",
+    "bairro":"Jatobá"
+  },
+  "58707-342": {
+    "logradouro":"Rua João Cordeiro da Silva",
+    "bairro":"Jatobá"
+  },
+  "58707-432": {
+    "logradouro":"Rua João Salvino de Medeiros",
+    "bairro":"Jatobá"
+  },
+  "58707-412": {
+    "logradouro":"Rua Joaquim dos Santos",
+    "bairro":"Jatobá"
+  },
+  "58707-300": {
+    "logradouro":"Rua José Germano Araújo",
+    "bairro":"Jatobá"
+  },
+  "58707-305": {
+    "logradouro":"Rua José Roosevelt Gomes",
+    "bairro":"Jatobá"
+  },
+  "58707-220": {
+    "logradouro":"Rua José Sátiro Quinho",
+    "bairro":"Jatobá"
+  },
+  "58707-345": {
+    "logradouro":"Rua José Soares da Costa",
+    "bairro":"Jatobá"
+  },
+  "58707-340": {
+    "logradouro":"Rua Jovino Lustosa",
+    "bairro":"Jatobá"
+  },
+  "58707-440": {
+    "logradouro":"Rua Justiniano Guedes",
+    "bairro":"Jatobá"
+  },
+  "58707-215": {
+    "logradouro":"Rua Luzia Ferreira Leitão",
+    "bairro":"Jatobá"
+  },
+  "58707-280": {
+    "logradouro":"Rua Manoel Cabral",
+    "bairro":"Jatobá"
+  },
+  "58707-360": {
+    "logradouro":"Rua Manoel José do Nascimento",
+    "bairro":"Jatobá"
+  },
+  "58707-460": {
+    "logradouro":"Rua Manoel Meira",
+    "bairro":"Jatobá"
+  },
+  "58707-430": {
+    "logradouro":"Rua Manoel Mota",
+    "bairro":"Jatobá"
+  },
+  "58707-420": {
+    "logradouro":"Rua Manoel Reinaldo",
+    "bairro":"Jatobá"
+  },
+  "58707-344": {
+    "logradouro":"Rua Maria de Guilherme",
+    "bairro":"Jatobá"
+  },
+  "58707-438": {
+    "logradouro":"Rua Maria Nunes Lucena",
+    "bairro":"Jatobá"
+  },
+  "58707-410": {
+    "logradouro":"Rua Paulo Viturino dos Santos",
+    "bairro":"Jatobá"
+  },
+  "58707-320": {
+    "logradouro":"Rua Poeta José Monteiro",
+    "bairro":"Jatobá"
+  },
+  "58707-115": {
+    "logradouro":"Rua Renan Aires",
+    "bairro":"Monte Castelo"
+  },
+  "58707-218": {
+    "logradouro":"Rua Renan Aires",
+    "bairro":"Jatobá"
+  },
+  "58707-240": {
+    "logradouro":"Rua Renan Aires",
+    "bairro":"Jatobá"
+  },
+  "58707-050": {
+    "logradouro":"Rua Roosevelt",
+    "bairro":"Jatobá"
+  },
+  "58707-242": {
+    "logradouro":"Rua Santina Ferreira Lucena",
+    "bairro":"Jatobá"
+  },
+  "58707-480": {
+    "logradouro": "Rua São Pedro - lado ímpar",
+    "bairro": "Jatobá"
+  },
+  "58707-225": {
+    "logradouro":"Rua Solon Medeiros",
+    "bairro":"Jatobá"
+  },
+  "58707-365": {
+    "logradouro":"Rua Valmir Nunes Figueiredo",
+    "bairro":"Jatobá"
+  },
+  "58707-285": {
+    "logradouro":"Travessa Manoel Cabral",
+    "bairro":"Jatobá"
+  },
+  "58707-425": {
+    "logradouro":"Travessa Manoel Reinaldo",
+    "bairro":"Jatobá"
+  },
+  "58704-590": {
+    "logradouro":"Rua Sargento Eme Cavalcante",
+    "bairro":"Juá Doce"
+  },
+  "58703-003": {
+    "logradouro":"Rodovia Patos Piancó",
+    "bairro":"Liberdade"
+  },
+  "58703-170": {
+    "logradouro":"Rua Adélia Urquiza",
+    "bairro":"Liberdade"
+  },
+  "58703-072": {
+    "logradouro": "Rua Antônio José Leite - lado par",
+    "bairro": "Liberdade"
+  },
+  "58703-030": {
+    "logradouro":"Rua Antônio Justiniano Nóbrega",
+    "bairro":"Liberdade"
+  },
+  "58703-134": {
+    "logradouro":"Rua Argemiro Gangorra de Barros",
+    "bairro":"Liberdade"
+  },
+  "58703-020": {
+    "logradouro":"Rua Caixa d'Água",
+    "bairro":"Liberdade"
+  },
+  "58703-120": {
+    "logradouro":"Rua Deputado Janduy Carneiro",
+    "bairro":"Liberdade"
+  },
+  "58703-152": {
+    "logradouro":"Rua Diogo José de Medeiros",
+    "bairro":"Liberdade"
+  },
+  "58703-008": {
+    "logradouro":"Rua do Meio",
+    "bairro":"Liberdade"
+  },
+  "58703-160": {
+    "logradouro":"Rua do Meio",
+    "bairro":"Liberdade"
+  },
+  "58703-000": {
+    "logradouro":"Rua do Prado",
+    "bairro":"Liberdade"
+  },
+  "58703-070": {
+    "logradouro":"Rua Doutor Enaldo Torres Fernandes",
+    "bairro":"Liberdade"
+  },
+  "58703-090": {
+    "logradouro":"Rua Doutor João Felipe Ramalho",
+    "bairro":"Liberdade"
+  },
+  "58703-060": {
+    "logradouro":"Rua Doutor José Genuíno",
+    "bairro":"Liberdade"
+  },
+  "58703-048": {
+    "logradouro":"Rua Doutor Pedro Firmino",
+    "bairro":"Liberdade"
+  },
+  "58703-221": {
+    "logradouro":"Rua Durval da Silva Melquíades",
+    "bairro":"Liberdade"
+  },
+  "58703-075": {
+    "logradouro":"Rua Edmilson Cirilo Costa",
+    "bairro":"Liberdade"
+  },
+  "58703-222": {
+    "logradouro":"Rua Estudante Fabrício da Silva Rodrigues",
+    "bairro":"Liberdade"
+  },
+  "58703-224": {
+    "logradouro":"Rua Fábio Batista Leite Bezerra",
+    "bairro":"Liberdade"
+  },
+  "58703-042": {
+    "logradouro":"Rua Felizardo Leite",
+    "bairro":"Liberdade"
+  },
+  "58703-078": {
+    "logradouro":"Rua Francisco Cirilo Costa",
+    "bairro":"Liberdade"
+  },
+  "58703-216": {
+    "logradouro":"Rua Francisco de Assis Morais da Silva",
+    "bairro":"Liberdade"
+  },
+  "58703-207": {
+    "logradouro":"Rua Inácio Melquíades de Sousa",
+    "bairro":"Liberdade"
+  },
+  "58703-214": {
+    "logradouro":"Rua Joaquim Crioulo",
+    "bairro":"Liberdade"
+  },
+  "58703-210": {
+    "logradouro":"Rua Joaquim Lopes de Assis",
+    "bairro":"Liberdade"
+  },
+  "58703-095": {
+    "logradouro":"Rua Joatan Aires de Oliveira",
+    "bairro":"Liberdade"
+  },
+  "58703-136": {
+    "logradouro":"Rua José Batista da Costa",
+    "bairro":"Liberdade"
+  },
+  "58703-218": {
+    "logradouro":"Rua José Dantas dos Santos",
+    "bairro":"Liberdade"
+  },
+  "58703-225": {
+    "logradouro":"Rua Juvita Avelino de Sousa",
+    "bairro":"Liberdade"
+  },
+  "58703-206": {
+    "logradouro":"Rua Karlos Wilberto Batista Leite Bezerra",
+    "bairro":"Liberdade"
+  },
+  "58703-220": {
+    "logradouro":"Rua Leôncio Lira de Oliveira",
+    "bairro":"Liberdade"
+  },
+  "58703-200": {
+    "logradouro":"Rua Luzivete Medeiros da Silva",
+    "bairro":"Liberdade"
+  },
+  "58703-110": {
+    "logradouro":"Rua Manoel A. de Freitas",
+    "bairro":"Liberdade"
+  },
+  "58703-006": {
+    "logradouro":"Rua Manoel Alves de Freitas",
+    "bairro":"Liberdade"
+  },
+  "58703-227": {
+    "logradouro":"Rua Maria do Carmo Sátiro Farias",
+    "bairro":"Liberdade"
+  },
+  "58703-229": {
+    "logradouro":"Rua Maria José Dantas de Holanda",
+    "bairro":"Liberdade"
+  },
+  "58703-228": {
+    "logradouro":"Rua Maria Stela Urquiza",
+    "bairro":"Liberdade"
+  },
+  "58703-203": {
+    "logradouro":"Rua Moacir Dantas Cavalcante",
+    "bairro":"Liberdade"
+  },
+  "58703-144": {
+    "logradouro":"Rua Natália de Figueiredo",
+    "bairro":"Liberdade"
+  },
+  "58703-226": {
+    "logradouro":"Rua Natanael Vidal de Negreiros",
+    "bairro":"Liberdade"
+  },
+  "58703-100": {
+    "logradouro":"Rua Nezinho Leandro",
+    "bairro":"Liberdade"
+  },
+  "58703-190": {
+    "logradouro":"Rua Odon Nogueira",
+    "bairro":"Liberdade"
+  },
+  "58703-040": {
+    "logradouro":"Rua Padre Joaquim de Assis Ferreira",
+    "bairro":"Liberdade"
+  },
+  "58703-130": {
+    "logradouro":"Rua Paulo Leite Ferreira",
+    "bairro":"Liberdade"
+  },
+  "58703-208": {
+    "logradouro":"Rua Pedro Leandro de Oliveira",
+    "bairro":"Liberdade"
+  },
+  "58703-050": {
+    "logradouro":"Rua Prefeito Oscar Torres",
+    "bairro":"Liberdade"
+  },
+  "58703-217": {
+    "logradouro":"Rua Professora Emília Longo Fernandes",
+    "bairro":"Liberdade"
+  },
+  "58703-150": {
+    "logradouro":"Rua Raniere Mazilli",
+    "bairro":"Liberdade"
+  },
+  "58703-204": {
+    "logradouro":"Rua Roldão Caroca do Nascimento",
+    "bairro":"Liberdade"
+  },
+  "58703-010": {
+    "logradouro":"Rua Santos Dumont",
+    "bairro":"Liberdade"
+  },
+  "58703-045": {
+    "logradouro":"Rua São José",
+    "bairro":"Liberdade"
+  },
+  "58703-132": {
+    "logradouro":"Rua Severina Monteiro da Silva",
+    "bairro":"Liberdade"
+  },
+  "58703-140": {
+    "logradouro":"Rua Severino Dutra",
+    "bairro":"Liberdade"
+  },
+  "58703-080": {
+    "logradouro":"Rua Zeca Vieira",
+    "bairro":"Liberdade"
+  },
+  "58703-025": {
+    "logradouro":"Travessa Caixa d'Água",
+    "bairro":"Liberdade"
+  },
+  "58703-005": {
+    "logradouro":"Travessa do Prado",
+    "bairro":"Liberdade"
+  },
+  "58703-215": {
+    "logradouro":"Travessa Joaquim Lopes de Assis",
+    "bairro":"Liberdade"
+  },
+  "58703-105": {
+    "logradouro":"Travessa Nezinho Leandro",
+    "bairro":"Liberdade"
+  },
+  "58703-195": {
+    "logradouro":"Travessa Odon Nogueira",
+    "bairro":"Liberdade"
+  },
+  "58703-155": {
+    "logradouro":"Travessa Raniere Mazilli",
+    "bairro":"Liberdade"
+  },
+  "58703-145": {
+    "logradouro":"Travessa Severino Dutra",
+    "bairro":"Liberdade"
+  },
+  "58701-530": {
+    "logradouro":"Avenida Francisco Fernandes de Assis",
+    "bairro":"Maternidade"
+  },
+  "58701-318": {
+    "logradouro":"Estrada do Campo Comprido",
+    "bairro":"Maternidade"
+  },
+  "58701-512": {
+    "logradouro":"Parada Pedro Morais de Medeiros Neto",
+    "bairro":"Maternidade"
+  },
+  "58701-534": {
+    "logradouro":"Rua Afrânio Firmino de Sousa",
+    "bairro":"Maternidade"
+  },
+  "58701-520": {
+    "logradouro":"Rua Alberto Lustosa",
+    "bairro":"Maternidade"
+  },
+  "58701-560": {
+    "logradouro":"Rua Alício Barreto",
+    "bairro":"Maternidade"
+  },
+  "58701-398": {
+    "logradouro":"Rua Alto Casteliano",
+    "bairro":"Maternidade"
+  },
+  "58701-492": {
+    "logradouro":"Rua André da Costa Pereira",
+    "bairro":"Maternidade"
+  },
+  "58701-552": {
+    "logradouro":"Rua Andressa Rodrigues Amorim",
+    "bairro":"Maternidade"
+  },
+  "58701-388": {
+    "logradouro":"Rua Angelita Soares Cavalcante",
+    "bairro":"Maternidade"
+  },
+  "58701-466": {
+    "logradouro":"Rua Antônio Balduino Neto",
+    "bairro":"Maternidade"
+  },
+  "58701-420": {
+    "logradouro":"Rua Antônio Lela",
+    "bairro":"Maternidade"
+  },
+  "58701-350": {
+    "logradouro":"Rua Antônio Palmeira",
+    "bairro":"Maternidade"
+  },
+  "58701-480": {
+    "logradouro":"Rua Antônio Pininho de Oliveira",
+    "bairro":"Maternidade"
+  },
+  "58701-389": {
+    "logradouro":"Rua Artemiza Cirilo",
+    "bairro":"Maternidade"
+  },
+  "58701-370": {
+    "logradouro":"Rua Atilano Moura",
+    "bairro":"Maternidade"
+  },
+  "58701-412": {
+    "logradouro":"Rua Azenriel de Brito Siqueira",
+    "bairro":"Maternidade"
+  },
+  "58701-330": {
+    "logradouro":"Rua Basta Gomes",
+    "bairro":"Maternidade"
+  },
+  "58701-414": {
+    "logradouro":"Rua Bernardino Felipe Santos",
+    "bairro":"Maternidade"
+  },
+  "58701-384": {
+    "logradouro":"Rua Cabo José Benício",
+    "bairro":"Maternidade"
+  },
+  "58701-368": {
+    "logradouro":"Rua Cabo Severino",
+    "bairro":"Maternidade"
+  },
+  "58701-450": {
+    "logradouro":"Rua Cícero Bernardo",
+    "bairro":"Maternidade"
+  },
+  "58701-355": {
+    "logradouro":"Rua Cícero Gomes da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-516": {
+    "logradouro":"Rua Cleonice Medeiros de Maria",
+    "bairro":"Maternidade"
+  },
+  "58701-359": {
+    "logradouro":"Rua Cloves Correia da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-302": {
+    "logradouro":"Rua Cônego Raul Lopes de Souza",
+    "bairro":"Maternidade"
+  },
+  "58701-430": {
+    "logradouro":"Rua Cônego Raul Lopes de Souza",
+    "bairro":"Maternidade"
+  },
+  "58701-570": {
+    "logradouro":"Rua Delzuita Avelino de Medeiros",
+    "bairro":"Maternidade"
+  },
+  "58701-418": {
+    "logradouro":"Rua do Prado",
+    "bairro":"Maternidade"
+  },
+  "58701-542": {
+    "logradouro":"Rua Eduardo Benício Araújo",
+    "bairro":"Maternidade"
+  },
+  "58701-513": {
+    "logradouro":"Rua Edvaldo Gomes Damascena",
+    "bairro":"Maternidade"
+  },
+  "58701-518": {
+    "logradouro":"Rua Egídio Gomes Bezerra",
+    "bairro":"Maternidade"
+  },
+  "58701-300": {
+    "logradouro":"Rua Elias Asfora",
+    "bairro":"Maternidade"
+  },
+  "58701-394": {
+    "logradouro":"Rua Escritor Augusto dos Anjos",
+    "bairro":"Maternidade"
+  },
+  "58701-472": {
+    "logradouro":"Rua Euzary Ayres de Lacerda",
+    "bairro":"Maternidade"
+  },
+  "58701-323": {
+    "logradouro":"Rua Evangelina Rodrigues de Sousa",
+    "bairro":"Maternidade"
+  },
+  "58701-515": {
+    "logradouro":"Rua Francisca da Silva Xavier",
+    "bairro":"Maternidade"
+  },
+  "58701-540": {
+    "logradouro":"Rua Francisco de Assis Araújo",
+    "bairro":"Maternidade"
+  },
+  "58701-366": {
+    "logradouro":"Rua Grazielle Ramalho Sátiro",
+    "bairro":"Maternidade"
+  },
+  "58701-320": {
+    "logradouro":"Rua Inácio do Leão",
+    "bairro":"Maternidade"
+  },
+  "58701-554": {
+    "logradouro":"Rua Irineu Teódulo da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-555": {
+    "logradouro":"Rua Ismael Tibiri",
+    "bairro":"Maternidade"
+  },
+  "58701-548": {
+    "logradouro":"Rua João F Lustosa",
+    "bairro":"Maternidade"
+  },
+  "58701-440": {
+    "logradouro":"Rua João Leite",
+    "bairro":"Maternidade"
+  },
+  "58701-506": {
+    "logradouro":"Rua João Severino de Sousa",
+    "bairro":"Maternidade"
+  },
+  "58701-510": {
+    "logradouro":"Rua Joaquim Araújo de Lucena",
+    "bairro":"Maternidade"
+  },
+  "58701-487": {
+    "logradouro":"Rua José Barbalho Bezerra",
+    "bairro":"Maternidade"
+  },
+  "58701-342": {
+    "logradouro":"Rua José Mariano",
+    "bairro":"Maternidade"
+  },
+  "58701-358": {
+    "logradouro":"Rua José Oliveira da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-426": {
+    "logradouro":"Rua José Palmeira da Nóbrega",
+    "bairro":"Maternidade"
+  },
+  "58701-367": {
+    "logradouro":"Rua José Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-363": {
+    "logradouro":"Rua José Trajano Mendes",
+    "bairro":"Maternidade"
+  },
+  "58701-493": {
+    "logradouro":"Rua Joselito Ferreira Trindade",
+    "bairro":"Maternidade"
+  },
+  "58701-550": {
+    "logradouro":"Rua Kelfhânio Brito",
+    "bairro":"Maternidade"
+  },
+  "58701-406": {
+    "logradouro":"Rua Lourival Palmeira",
+    "bairro":"Maternidade"
+  },
+  "58701-500": {
+    "logradouro":"Rua Luiz Araújo Nóbrega",
+    "bairro":"Maternidade"
+  },
+  "58701-502": {
+    "logradouro":"Rua Luiz Fragoso Diniz",
+    "bairro":"Maternidade"
+  },
+  "58701-485": {
+    "logradouro":"Rua Luiz Vieira de Souza",
+    "bairro":"Maternidade"
+  },
+  "58701-564": {
+    "logradouro":"Rua Luzia Noberto da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-488": {
+    "logradouro":"Rua Manoel Marcelino de Lucena",
+    "bairro":"Maternidade"
+  },
+  "58701-362": {
+    "logradouro":"Rua Maria Alves da Silva",
+    "bairro":"Maternidade"
+  },
+  "58701-486": {
+    "logradouro":"Rua Maria Aparecida de Medeiros Montenegro",
+    "bairro":"Maternidade"
+  },
+  "58701-511": {
+    "logradouro":"Rua Maria Araújo Lucena dos Santos",
+    "bairro":"Maternidade"
+  },
+  "58701-354": {
+    "logradouro":"Rua Maria de Lourdes Wanderley",
+    "bairro":"Maternidade"
+  },
+  "58701-482": {
+    "logradouro":"Rua Maria Gorete Oliveira Lins",
+    "bairro":"Maternidade"
+  },
+  "58701-498": {
+    "logradouro":"Rua Maria Lúcia Gomes",
+    "bairro":"Maternidade"
+  },
+  "58701-424": {
+    "logradouro":"Rua Maria Sousa Barreto",
+    "bairro":"Maternidade"
+  },
+  "58701-508": {
+    "logradouro":"Rua Marina Gouveia",
+    "bairro":"Maternidade"
+  },
+  "58701-490": {
+    "logradouro":"Rua Mário Gomes de Moura",
+    "bairro":"Maternidade"
+  },
+  "58701-390": {
+    "logradouro":"Rua Miguel Fernandes Mota",
+    "bairro":"Maternidade"
+  },
+  "58701-481": {
+    "logradouro":"Rua Minelvina Simões Candeia",
+    "bairro":"Maternidade"
+  },
+  "58701-310": {
+    "logradouro":"Rua Misael de Sousa",
+    "bairro":"Maternidade"
+  },
+  "58701-402": {
+    "logradouro":"Rua Nabor Barbosa de Carvalho",
+    "bairro":"Maternidade"
+  },
+  "58701-385": {
+    "logradouro":"Rua Noé Trajano",
+    "bairro":"Maternidade"
+  },
+  "58701-517": {
+    "logradouro":"Rua Olívia Maria de Araújo Oliveira",
+    "bairro":"Maternidade"
+  },
+  "58701-483": {
+    "logradouro":"Rua Osni Wanderley",
+    "bairro":"Maternidade"
+  },
+  "58701-396": {
+    "logradouro":"Rua Otílio de Sousa",
+    "bairro":"Maternidade"
+  },
+  "58701-392": {
+    "logradouro":"Rua Padre Anchieta",
+    "bairro":"Maternidade"
+  },
+  "58701-404": {
+    "logradouro":"Rua Paulo César de Oliveira",
+    "bairro":"Maternidade"
+  },
+  "58701-566": {
+    "logradouro":"Rua Pedro Amorim",
+    "bairro":"Maternidade"
+  },
+  "58701-410": {
+    "logradouro":"Rua Pedro Xavier",
+    "bairro":"Maternidade"
+  },
+  "58701-416": {
+    "logradouro":"Rua Peregrino de Araújo",
+    "bairro":"Maternidade"
+  },
+  "58701-313": {
+    "logradouro":"Rua Prefeito Oscar Torres",
+    "bairro":"Maternidade"
+  },
+  "58701-340": {
+    "logradouro":"Rua Professor José Araújo",
+    "bairro":"Maternidade"
+  },
+  "58701-519": {
+    "logradouro":"Rua Raimundo Gomes de Lima",
+    "bairro":"Maternidade"
+  },
+  "58701-422": {
+    "logradouro":"Rua Roque Sá Magalhães",
+    "bairro":"Maternidade"
+  },
+  "58701-400": {
+    "logradouro":"Rua Rosa Figueiredo",
+    "bairro":"Maternidade"
+  },
+  "58701-315": {
+    "logradouro":"Rua São José",
+    "bairro":"Maternidade"
+  },
+  "58701-470": {
+    "logradouro":"Rua Saulo de Queiroz Melo",
+    "bairro":"Maternidade"
+  },
+  "58701-360": {
+    "logradouro":"Rua Sérgio Lima",
+    "bairro":"Maternidade"
+  },
+  "58701-504": {
+    "logradouro":"Rua Severino Oliveira Braz",
+    "bairro":"Maternidade"
+  },
+  "58701-380": {
+    "logradouro":"Rua Severino Soares",
+    "bairro":"Maternidade"
+  },
+  "58701-484": {
+    "logradouro":"Rua Terezinha Brito de Lima",
+    "bairro":"Maternidade"
+  },
+  "58701-375": {
+    "logradouro":"Rua Vereador Apolônio Gonçalves de Lima",
+    "bairro":"Maternidade"
+  },
+  "58701-357": {
+    "logradouro":"Rua Vicência Alves Gomes",
+    "bairro":"Maternidade"
+  },
+  "58701-473": {
+    "logradouro":"Rua Wilson Lira Sampaio",
+    "bairro":"Maternidade"
+  },
+  "58701-455": {
+    "logradouro":"Travessa Cícero Bernardo",
+    "bairro":"Maternidade"
+  },
+  "58701-305": {
+    "logradouro":"Travessa Elias Asfora",
+    "bairro":"Maternidade"
+  },
+  "58701-316": {
+    "logradouro":"Travessa Isabel Viana",
+    "bairro":"Maternidade"
+  },
+  "58701-445": {
+    "logradouro":"Travessa João Leite",
+    "bairro":"Maternidade"
+  },
+  "58701-365": {
+    "logradouro":"Travessa Sérgio Lima",
+    "bairro":"Maternidade"
+  },
+  "58707-180": {
+    "logradouro":"Rua Antônio Barreto",
+    "bairro":"Monte Castelo"
+  },
+  "58707-016": {
+    "logradouro":"Rua Antônio Lopes de Lima",
+    "bairro":"Monte Castelo"
+  },
+  "58707-130": {
+    "logradouro":"Rua Antônio Torres",
+    "bairro":"Monte Castelo"
+  },
+  "58707-046": {
+    "logradouro":"Rua Auzenira Araújo do Nascimento",
+    "bairro":"Monte Castelo"
+  },
+  "58707-182": {
+    "logradouro":"Rua Beira Rio",
+    "bairro":"Monte Castelo"
+  },
+  "58707-186": {
+    "logradouro":"Rua da Boa Vizinhança",
+    "bairro":"Monte Castelo"
+  },
+  "58707-184": {
+    "logradouro":"Rua Dom Gerardo Pontes",
+    "bairro":"Monte Castelo"
+  },
+  "58707-188": {
+    "logradouro":"Rua dos Lírios",
+    "bairro":"Monte Castelo"
+  },
+  "58707-120": {
+    "logradouro":"Rua Doutor Edval Porfiro",
+    "bairro":"Monte Castelo"
+  },
+  "58707-164": {
+    "logradouro":"Rua Erinaldo Fereira Matias",
+    "bairro":"Monte Castelo"
+  },
+  "58707-135": {
+    "logradouro":"Rua Fabiana dos Santos Farias",
+    "bairro":"Monte Castelo"
+  },
+  "58707-163": {
+    "logradouro":"Rua Fernando Ferreira de Lima",
+    "bairro":"Monte Castelo"
+  },
+  "58707-110": {
+    "logradouro":"Rua Francisco Paulo Licarião",
+    "bairro":"Monte Castelo"
+  },
+  "58707-190": {
+    "logradouro":"Rua Frei Damião",
+    "bairro":"Monte Castelo"
+  },
+  "58707-048": {
+    "logradouro":"Rua Henrique Pereira da Silva",
+    "bairro":"Monte Castelo"
+  },
+  "58707-040": {
+    "logradouro":"Rua Hermes Enéas",
+    "bairro":"Monte Castelo"
+  },
+  "58707-065": {
+    "logradouro":"Rua Joana Justina da Silva",
+    "bairro":"Monte Castelo"
+  },
+  "58707-108": {
+    "logradouro":"Rua João César Sobrinho",
+    "bairro":"Monte Castelo"
+  },
+  "58707-030": {
+    "logradouro":"Rua João Cézar",
+    "bairro":"Monte Castelo"
+  },
+  "58707-080": {
+    "logradouro":"Rua Joaquim Amaro",
+    "bairro":"Monte Castelo"
+  },
+  "58707-177": {
+    "logradouro":"Rua Jocelém José de Lucena",
+    "bairro":"Monte Castelo"
+  },
+  "58707-060": {
+    "logradouro":"Rua José Crispim",
+    "bairro":"Monte Castelo"
+  },
+  "58707-118": {
+    "logradouro":"Rua Luzia Ferreira Leitão",
+    "bairro":"Monte Castelo"
+  },
+  "58707-045": {
+    "logradouro":"Rua Manacés Araújo Leitão",
+    "bairro":"Monte Castelo"
+  },
+  "58707-000": {
+    "logradouro":"Rua Manoel Mota",
+    "bairro":"Monte Castelo"
+  },
+  "58707-100": {
+    "logradouro":"Rua Manoel Pedro Oliveira",
+    "bairro":"Monte Castelo"
+  },
+  "58707-125": {
+    "logradouro":"Rua Maria Alves Vilar",
+    "bairro":"Monte Castelo"
+  },
+  "58707-062": {
+    "logradouro":"Rua Maria Augusta Limeira",
+    "bairro":"Monte Castelo"
+  },
+  "58707-178": {
+    "logradouro":"Rua Nossa Senhora Aparecida",
+    "bairro":"Monte Castelo"
+  },
+  "58707-183": {
+    "logradouro":"Rua Nossa Senhora das Graças",
+    "bairro":"Monte Castelo"
+  },
+  "58707-185": {
+    "logradouro":"Rua Nossa Senhora de Lourdes",
+    "bairro":"Monte Castelo"
+  },
+  "58707-160": {
+    "logradouro":"Rua Pedro David",
+    "bairro":"Monte Castelo"
+  },
+  "58707-166": {
+    "logradouro":"Rua Pedro Ferreira Leitão",
+    "bairro":"Monte Castelo"
+  },
+  "58707-042": {
+    "logradouro":"Rua Pedro Francisco do Nascimento",
+    "bairro":"Monte Castelo"
+  },
+  "58707-162": {
+    "logradouro":"Rua Pedro Lourenço da Costa",
+    "bairro":"Monte Castelo"
+  },
+  "58707-020": {
+    "logradouro":"Rua Sabino Viana",
+    "bairro":"Monte Castelo"
+  },
+  "58707-187": {
+    "logradouro":"Rua Santa Clara",
+    "bairro":"Monte Castelo"
+  },
+  "58707-140": {
+    "logradouro":"Rua Sebastião Monteiro Oliveira",
+    "bairro":"Monte Castelo"
+  },
+  "58707-010": {
+    "logradouro":"Rua Solon Medeiros",
+    "bairro":"Monte Castelo"
+  },
+  "58707-165": {
+    "logradouro":"Rua Valdir Dias de Amorim",
+    "bairro":"Monte Castelo"
+  },
+  "58707-005": {
+    "logradouro":"Travessa Manoel Mota",
+    "bairro":"Monte Castelo"
+  },
+  "58703-393": {
+    "logradouro":"Avenida Diocênio Sátiro de Sousa",
+    "bairro":"Morada do Sol"
+  },
+  "58703-392": {
+    "logradouro":"Avenida Maria Gorete Vieira Franco",
+    "bairro":"Morada do Sol"
+  },
+  "58703-358": {
+    "logradouro":"Avenida Um",
+    "bairro":"Morada do Sol"
+  },
+  "58703-373": {
+    "logradouro":"Rua Águida de Souza Franco",
+    "bairro":"Morada do Sol"
+  },
+  "58703-384": {
+    "logradouro":"Rua Amália Cruz Guedes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-342": {
+    "logradouro":"Rua Antonieta Longo",
+    "bairro":"Morada do Sol"
+  },
+  "58703-380": {
+    "logradouro":"Rua Antônio Franco da Costa",
+    "bairro":"Morada do Sol"
+  },
+  "58703-424": {
+    "logradouro":"Rua Cícero Lúcio de Sousa",
+    "bairro":"Morada do Sol"
+  },
+  "58703-390": {
+    "logradouro":"Rua Clóvis Sátyro de Souza",
+    "bairro":"Morada do Sol"
+  },
+  "58703-410": {
+    "logradouro":"Rua Cosmo Moura da Silva",
+    "bairro":"Morada do Sol"
+  },
+  "58703-346": {
+    "logradouro":"Rua Creuza Oliveira Lopes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-382": {
+    "logradouro":"Rua Dom Fernando Gomes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-391": {
+    "logradouro":"Rua Doralice Sátiro",
+    "bairro":"Morada do Sol"
+  },
+  "58703-400": {
+    "logradouro":"Rua Doutor Romero Abdon Queiroz da Nóbrega",
+    "bairro":"Morada do Sol"
+  },
+  "58703-370": {
+    "logradouro":"Rua Eleonora Xavier",
+    "bairro":"Morada do Sol"
+  },
+  "58703-395": {
+    "logradouro":"Rua Ernani Sátiro",
+    "bairro":"Morada do Sol"
+  },
+  "58703-398": {
+    "logradouro":"Rua Estácio de Sá e Souza",
+    "bairro":"Morada do Sol"
+  },
+  "58703-340": {
+    "logradouro":"Rua Estudante Fabrício da Silva Rodrigues",
+    "bairro":"Morada do Sol"
+  },
+  "58703-386": {
+    "logradouro":"Rua Francisca Wanderley da Nóbrega",
+    "bairro":"Morada do Sol"
+  },
+  "58703-375": {
+    "logradouro":"Rua Ivanildo Costa Vilar",
+    "bairro":"Morada do Sol"
+  },
+  "58703-360": {
+    "logradouro":"Rua José Bonifácio de Carvalho",
+    "bairro":"Morada do Sol"
+  },
+  "58703-396": {
+    "logradouro":"Rua José Maximiano Silva",
+    "bairro":"Morada do Sol"
+  },
+  "58703-388": {
+    "logradouro":"Rua Milton Vieira",
+    "bairro":"Morada do Sol"
+  },
+  "58703-404": {
+    "logradouro":"Rua Murilo Alves de Lima",
+    "bairro":"Morada do Sol"
+  },
+  "58703-363": {
+    "logradouro":"Rua Oscar Xavier dos Santos",
+    "bairro":"Morada do Sol"
+  },
+  "58703-349": {
+    "logradouro":"Rua Pedro Alexandrino de Araújo Filho",
+    "bairro":"Morada do Sol"
+  },
+  "58703-343": {
+    "logradouro":"Rua Poeta Antônio Américo de Medeiros",
+    "bairro":"Morada do Sol"
+  },
+  "58703-429": {
+    "logradouro":"Rua Severina Etelvina de Pontes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-428": {
+    "logradouro":"Rua Severino Rodrigues de Sousa",
+    "bairro":"Morada do Sol"
+  },
+  "58703-345": {
+    "logradouro":"Rua Silvino Argemiro Neves",
+    "bairro":"Morada do Sol"
+  },
+  "58703-378": {
+    "logradouro":"Rua Urbana Gomes Carvalho",
+    "bairro":"Morada do Sol"
+  },
+  "58703-421": {
+    "logradouro":"Rua Vereador Abdias Guedes Cavalcanti",
+    "bairro":"Morada do Sol"
+  },
+  "58703-440": {
+    "logradouro":"Rua Vereador Francisco Antônio de Maria",
+    "bairro":"Morada do Sol"
+  },
+  "58703-422": {
+    "logradouro":"Rua Vereador Francisco de Assis Barboza",
+    "bairro":"Morada do Sol"
+  },
+  "58703-344": {
+    "logradouro":"Rua Vereador José Augusto Longo da Silva",
+    "bairro":"Morada do Sol"
+  },
+  "58703-431": {
+    "logradouro":"Rua Vereador José da Penha Fernandes Meira",
+    "bairro":"Morada do Sol"
+  },
+  "58703-434": {
+    "logradouro":"Rua Vereador José Geraldo Dinoá Medeiros",
+    "bairro":"Morada do Sol"
+  },
+  "58703-433": {
+    "logradouro":"Rua Vereador José Marcone de Andrade",
+    "bairro":"Morada do Sol"
+  },
+  "58703-438": {
+    "logradouro":"Rua Vereador José Torres Gomes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-423": {
+    "logradouro":"Rua Vereador Manuel Rodrigues Lustosa",
+    "bairro":"Morada do Sol"
+  },
+  "58703-425": {
+    "logradouro":"Rua Vereador Pedro Alexon Dias Jerônimo",
+    "bairro":"Morada do Sol"
+  },
+  "58703-445": {
+    "logradouro":"Rua Vereador Severino Alves Siqueira",
+    "bairro":"Morada do Sol"
+  },
+  "58703-432": {
+    "logradouro":"Rua Vereador Severino Fernandes Gomes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-420": {
+    "logradouro":"Rua Vereador Virgílio Trindade Monteiro",
+    "bairro":"Morada do Sol"
+  },
+  "58703-435": {
+    "logradouro":"Rua Vereador Wilson Dias Novo",
+    "bairro":"Morada do Sol"
+  },
+  "58703-430": {
+    "logradouro":"Rua Vereadora Maria Esther Sátiro Fernandes",
+    "bairro":"Morada do Sol"
+  },
+  "58703-368": {
+    "logradouro":"Rua Walter Carvalho",
+    "bairro":"Morada do Sol"
+  },
+  "58703-365": {
+    "logradouro":"Rua Wantuy da Silva Martins",
+    "bairro":"Morada do Sol"
+  },
+  "58703-310": {
+    "logradouro":"Conjunto Deputado José Mariz",
+    "bairro":"Morro"
+  },
+  "58703-280": {
+    "logradouro":"Rua Antonieta Longo",
+    "bairro":"Morro"
+  },
+  "58703-244": {
+    "logradouro":"Rua Antônio Caboclo",
+    "bairro":"Morro"
+  },
+  "58703-238": {
+    "logradouro":"Rua Antônio José Quirino",
+    "bairro":"Morro"
+  },
+  "58703-273": {
+    "logradouro":"Rua Creuza Oliveira Lopes",
+    "bairro":"Morro"
+  },
+  "58703-252": {
+    "logradouro":"Rua Deputado Janduy Carneiro",
+    "bairro":"Morro"
+  },
+  "58703-240": {
+    "logradouro":"Rua do Prado",
+    "bairro":"Morro"
+  },
+  "58703-258": {
+    "logradouro":"Rua Doutor José Genuíno",
+    "bairro":"Morro"
+  },
+  "58703-283": {
+    "logradouro":"Rua Durval da Silva Melquíades",
+    "bairro":"Morro"
+  },
+  "58703-272": {
+    "logradouro":"Rua Francisco Américo de Araújo",
+    "bairro":"Morro"
+  },
+  "58703-230": {
+    "logradouro":"Rua Janúncio Nóbrega",
+    "bairro":"Morro"
+  },
+  "58703-250": {
+    "logradouro":"Rua Joaquim Crioulo",
+    "bairro":"Morro"
+  },
+  "58703-233": {
+    "logradouro":"Rua Joaquim Lopes de Assis",
+    "bairro":"Morro"
+  },
+  "58703-265": {
+    "logradouro":"Rua José Bonifácio de Carvalho",
+    "bairro":"Morro"
+  },
+  "58703-277": {
+    "logradouro":"Rua José Dantas dos Santos",
+    "bairro":"Morro"
+  },
+  "58703-242": {
+    "logradouro":"Rua Marluce Nunes de Assis",
+    "bairro":"Morro"
+  },
+  "58703-290": {
+    "logradouro":"Rua Natália de Figueiredo",
+    "bairro":"Morro"
+  },
+  "58703-285": {
+    "logradouro":"Rua Natanael Vidal de Negreiros",
+    "bairro":"Morro"
+  },
+  "58703-254": {
+    "logradouro":"Rua Nezinho Leandro",
+    "bairro":"Morro"
+  },
+  "58703-266": {
+    "logradouro":"Rua Oscar Xavier dos Santos",
+    "bairro":"Morro"
+  },
+  "58703-268": {
+    "logradouro":"Rua Padre Joaquim de Assis Ferreira",
+    "bairro":"Morro"
+  },
+  "58703-292": {
+    "logradouro":"Rua Pedro Rufino de Sousa",
+    "bairro":"Morro"
+  },
+  "58703-276": {
+    "logradouro":"Rua Poeta Antônio Américo de Medeiros",
+    "bairro":"Morro"
+  },
+  "58703-270": {
+    "logradouro":"Rua Professora Maria José de Lima",
+    "bairro":"Morro"
+  },
+  "58703-295": {
+    "logradouro":"Rua Severino Dutra",
+    "bairro":"Morro"
+  },
+  "58703-274": {
+    "logradouro":"Rua Silvino Argemiro Neves",
+    "bairro":"Morro"
+  },
+  "58703-275": {
+    "logradouro":"Rua Vereador José Augusto Longo da Silva",
+    "bairro":"Morro"
+  },
+  "58703-269": {
+    "logradouro":"Rua Walter Carvalho",
+    "bairro":"Morro"
+  },
+  "58703-267": {
+    "logradouro":"Rua Wantuy da Silva Martins",
+    "bairro":"Morro"
+  },
+  "58703-256": {
+    "logradouro":"Rua Zeca Vieira",
+    "bairro":"Morro"
+  },
+  "58705-235": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Noé Trajano"
+  },
+  "58705-150": {
+    "logradouro":"Rua Afonso Kehrle",
+    "bairro":"Noé Trajano"
+  },
+  "58705-134": {
+    "logradouro":"Rua Dedé Marinho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-146": {
+    "logradouro":"Rua dos Pegas",
+    "bairro":"Noé Trajano"
+  },
+  "58705-190": {
+    "logradouro":"Rua Doutor Ageu de Castro",
+    "bairro":"Noé Trajano"
+  },
+  "58705-201": {
+    "logradouro":"Rua Edimilson Ferreira Matias",
+    "bairro":"Noé Trajano"
+  },
+  "58705-203": {
+    "logradouro":"Rua Eliane Marinho dos Santos Lopes",
+    "bairro":"Noé Trajano"
+  },
+  "58705-178": {
+    "logradouro":"Rua Estudante Josinaldo Targino Borges",
+    "bairro":"Noé Trajano"
+  },
+  "58705-206": {
+    "logradouro":"Rua Fernanda Carvalho Monteiro",
+    "bairro":"Noé Trajano"
+  },
+  "58705-163": {
+    "logradouro":"Rua Francisca Alves Marinho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-130": {
+    "logradouro":"Rua Gumercindo Farias Leite",
+    "bairro":"Noé Trajano"
+  },
+  "58705-193": {
+    "logradouro": "Rua Horácio Nóbrega - lado ímpar",
+    "bairro": "Noé Trajano"
+  },
+  "58705-182": {
+    "logradouro":"Rua Humberto do Bandolim",
+    "bairro":"Noé Trajano"
+  },
+  "58705-125": {
+    "logradouro":"Rua João Gomes",
+    "bairro":"Noé Trajano"
+  },
+  "58705-132": {
+    "logradouro":"Rua José Borges",
+    "bairro":"Noé Trajano"
+  },
+  "58705-144": {
+    "logradouro":"Rua José Clementino",
+    "bairro":"Noé Trajano"
+  },
+  "58705-207": {
+    "logradouro":"Rua José Genival Rodrigues Júnior",
+    "bairro":"Noé Trajano"
+  },
+  "58705-174": {
+    "logradouro":"Rua José Marlon Alves Amaro",
+    "bairro":"Noé Trajano"
+  },
+  "58705-160": {
+    "logradouro":"Rua Marileda César Ramalho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-152": {
+    "logradouro":"Rua Otávio Germano de Araújo",
+    "bairro":"Noé Trajano"
+  },
+  "58705-165": {
+    "logradouro":"Rua Padre Hilário",
+    "bairro":"Noé Trajano"
+  },
+  "58705-142": {
+    "logradouro":"Rua Pedro Celestino de Sousa",
+    "bairro":"Noé Trajano"
+  },
+  "58705-180": {
+    "logradouro":"Rua Pintor Zezinho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-205": {
+    "logradouro":"Rua Professor Herly Adelino Filho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-204": {
+    "logradouro":"Rua Professora Maria de Fátima Lacerda Ramalho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-136": {
+    "logradouro":"Rua Sebastião Marcelino Sobrinho",
+    "bairro":"Noé Trajano"
+  },
+  "58705-192": {
+    "logradouro":"Rua Severina Figueiredo da Silva",
+    "bairro":"Noé Trajano"
+  },
+  "58705-170": {
+    "logradouro":"Rua Severino Inácio",
+    "bairro":"Noé Trajano"
+  },
+  "58705-115": {
+    "logradouro":"Rua Violonista Antônio Emiliano",
+    "bairro":"Noé Trajano"
+  },
+  "58705-140": {
+    "logradouro":"Rua Violonista Antônio Moreno",
+    "bairro":"Noé Trajano"
+  },
+  "58705-162": {
+    "logradouro":"Rua Wagner de Lucena Oliveira",
+    "bairro":"Noé Trajano"
+  },
+  "58705-176": {
+    "logradouro":"Rua Wilson Jansen",
+    "bairro":"Noé Trajano"
+  },
+  "58705-128": {
+    "logradouro":"Rua Zuza Cabral",
+    "bairro":"Noé Trajano"
+  },
+  "58708-270": {
+    "logradouro":"Rua Aparecida",
+    "bairro":"Nova Conquista"
+  },
+  "58708-208": {
+    "logradouro":"Rua Boa Esperança",
+    "bairro":"Nova Conquista"
+  },
+  "58708-272": {
+    "logradouro":"Rua Carmelita Lucena",
+    "bairro":"Nova Conquista"
+  },
+  "58708-258": {
+    "logradouro":"Rua Carmem Lúcia Batista Vieira",
+    "bairro":"Nova Conquista"
+  },
+  "58708-262": {
+    "logradouro":"Rua Celina Gondim dos Anjos",
+    "bairro":"Nova Conquista"
+  },
+  "58708-220": {
+    "logradouro":"Rua Francisca Inácia Lima",
+    "bairro":"Nova Conquista"
+  },
+  "58708-210": {
+    "logradouro":"Rua Inácio de Loiola",
+    "bairro":"Nova Conquista"
+  },
+  "58708-280": {
+    "logradouro":"Rua Irineu Lacerda",
+    "bairro":"Nova Conquista"
+  },
+  "58708-252": {
+    "logradouro":"Rua João Idelfonso",
+    "bairro":"Nova Conquista"
+  },
+  "58708-254": {
+    "logradouro":"Rua João Roberto",
+    "bairro":"Nova Conquista"
+  },
+  "58708-256": {
+    "logradouro":"Rua Maria da Guia do Ó",
+    "bairro":"Nova Conquista"
+  },
+  "58708-260": {
+    "logradouro":"Rua Nova Conquista",
+    "bairro":"Nova Conquista"
+  },
+  "58708-202": {
+    "logradouro":"Rua Pedro Félix",
+    "bairro":"Nova Conquista"
+  },
+  "58708-215": {
+    "logradouro":"Rua Rosa Maria Sales",
+    "bairro":"Nova Conquista"
+  },
+  "58708-200": {
+    "logradouro":"Rua São Vicente",
+    "bairro":"Nova Conquista"
+  },
+  "58708-275": {
+    "logradouro":"Rua Sete de Setembro",
+    "bairro":"Nova Conquista"
+  },
+  "58708-206": {
+    "logradouro":"Rua Três Irmãos",
+    "bairro":"Nova Conquista"
+  },
+  "58708-204": {
+    "logradouro":"Rua Zacarias Oliveira",
+    "bairro":"Nova Conquista"
+  },
+  "58704-750": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-628": {
+    "logradouro":"Rua Adriana Ferreira Carneiro",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-741": {
+    "logradouro":"Rua Alan Wanderley Mariano e Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-743": {
+    "logradouro":"Rua Aldman Leitão de Araújo",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-733": {
+    "logradouro":"Rua Álvaro Alves de Lira",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-663": {
+    "logradouro":"Rua Ana Raquel Barreto Alves",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-757": {
+    "logradouro":"Rua Antônio Clementino da Nóbrega",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-830": {
+    "logradouro":"Rua Antônio Crizanto Dantas",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-800": {
+    "logradouro":"Rua Antônio Pereira da Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-714": {
+    "logradouro":"Rua Antônio Trindade de Figueiredo",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-715": {
+    "logradouro":"Rua Aristides Mamede Gomes",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-760": {
+    "logradouro":"Rua Arnaldo Assis de Medeiros",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-660": {
+    "logradouro":"Rua Arthur Diego de Sousa Damasceno",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-768": {
+    "logradouro":"Rua Benedito Rouxinol",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-718": {
+    "logradouro":"Rua Carmelita Braga",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-785": {
+    "logradouro":"Rua Claúdio Eduardo Pereira Paschoal",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-720": {
+    "logradouro":"Rua Daniel César da Rocha Alves",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-632": {
+    "logradouro":"Rua Diego Lucena Camboim",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-715": {
+    "logradouro":"Rua Diogo José de Medeiros",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-792": {
+    "logradouro":"Rua Edgar Edjalma de Sousa",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-713": {
+    "logradouro":"Rua Emília Francisca de Sousa Dantas",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-721": {
+    "logradouro":"Rua Emily Toscano Freire",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-754": {
+    "logradouro":"Rua Ermano Caetano de Sousa",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-759": {
+    "logradouro":"Rua Ermínio Ramberto Pires Torres",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-655": {
+    "logradouro":"Rua Fábio Costa Araújo",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-658": {
+    "logradouro":"Rua Fillyanderson Medeiros Martins",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-625": {
+    "logradouro":"Rua Francisco Alex Davi de Lucena",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-748": {
+    "logradouro":"Rua Francisco Antônio do Nascimento",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-710": {
+    "logradouro":"Rua Francisco de Assis Cabral",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-620": {
+    "logradouro":"Rua Francisco de Assis Paulo Júnior",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-653": {
+    "logradouro":"Rua Francisco Ferreira Cabral",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-720": {
+    "logradouro":"Rua Francisco Filgueiras de Assis",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-794": {
+    "logradouro":"Rua Francisco Lúcio da Nóbrega",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-716": {
+    "logradouro":"Rua Francisco Nunes Perônico",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-755": {
+    "logradouro":"Rua Gilberlam Morais de Oliveira",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-751": {
+    "logradouro": "Rua Horácio Nóbrega - lado par",
+    "bairro": "Novo Horizonte"
+    },
+  "58703-623": {
+    "logradouro":"Rua Igor Araújo Mota",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-777": {
+    "logradouro":"Rua Igor de Arruda Souza",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-740": {
+    "logradouro":"Rua Inalda Cruz Guedes de Medeiros",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-775": {
+    "logradouro":"Rua Inaldo Brito Costa",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-822": {
+    "logradouro":"Rua Iremar Belarmino de Sousa",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-635": {
+    "logradouro":"Rua Jaci Dias dos Santos",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-657": {
+    "logradouro":"Rua Jackson Fernandes dos Santos",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-714": {
+    "logradouro":"Rua Janete de Sousa Emiliano",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-742": {
+    "logradouro":"Rua Joacil Martins Pereira",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-664": {
+    "logradouro":"Rua João Augusto Chaves Neto",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-636": {
+    "logradouro":"Rua João Baldoino dos Santos",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-797": {
+    "logradouro":"Rua João Batista Campos Queiroz",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-740": {
+    "logradouro":"Rua João Cosme de Brito",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-772": {
+    "logradouro":"Rua João da Cruz",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-791": {
+    "logradouro":"Rua João Pedro Teixeira",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-796": {
+    "logradouro":"Rua João Pinheiro da Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-670": {
+    "logradouro":"Rua José Aldefran da Costa Brito",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-767": {
+    "logradouro":"Rua José Araújo Sobrinho",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-718": {
+    "logradouro":"Rua José Borges dos Santos",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-795": {
+    "logradouro":"Rua José Justino de Amorim",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-783": {
+    "logradouro":"Rua José Queiroz Vilar",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-818": {
+    "logradouro":"Rua José Rouxinol de Oliveira",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-626": {
+    "logradouro":"Rua Júlio Crispim Perônico",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-784": {
+    "logradouro":"Rua Julita Dias de Queiroz",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-745": {
+    "logradouro":"Rua Kaymarks Mariano da Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-723": {
+    "logradouro":"Rua Leonardo dos Santos Medeiros",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-610": {
+    "logradouro":"Rua Leonardo Torres Medeiros de Araújo",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-656": {
+    "logradouro":"Rua Lorraine Mikaely Azevedo de Araújo",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-662": {
+    "logradouro":"Rua Luna Maria de Medeiros Rangel",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-722": {
+    "logradouro":"Rua Manoel Bezerra de Albuquerque",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-736": {
+    "logradouro":"Rua Manoel da Costa Filgueiras",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-780": {
+    "logradouro":"Rua Manoel Isaias da Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-743": {
+    "logradouro":"Rua Manoel Maurício de Oliveira",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-650": {
+    "logradouro":"Rua Marcélio Carreiro de Amorim Medeiros Dias",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-745": {
+    "logradouro":"Rua Margarida Maria Alves",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-786": {
+    "logradouro":"Rua Maria do Socorro Silva Oliveira",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-713": {
+    "logradouro":"Rua Maria José Pacheco Mota",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-730": {
+    "logradouro":"Rua Maria José Romão",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-710": {
+    "logradouro":"Rua Monsenhor Luis Laíres da Nóbrega",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-717": {
+    "logradouro":"Rua Nadjara Segundo dos Santos",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-824": {
+    "logradouro":"Rua Odília Maria Bezerra",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-700": {
+    "logradouro":"Rua Padre Acácio Cartaxo Rolim",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-705": {
+    "logradouro":"Rua Padre Jerônimo Leopoldino",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-725": {
+    "logradouro":"Rua Padre José Lopes Sobrinho",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-708": {
+    "logradouro":"Rua Padre Levi Rodrigues",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-730": {
+    "logradouro":"Rua Padre Raimundo de Assis Ferreira",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-774": {
+    "logradouro":"Rua Pastor Edson Poujeaux",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-752": {
+    "logradouro":"Rua Pedro Campos Sobrinho",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-637": {
+    "logradouro":"Rua Pedro Lino Brandão",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-810": {
+    "logradouro":"Rua Professor Herly Adelino Filho",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-630": {
+    "logradouro":"Rua Raphael de Santana Alves",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-735": {
+    "logradouro":"Rua Raul Gomes de Farias",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-744": {
+    "logradouro":"Rua Rebeca Jerônimo Brasileiro dos Passos",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-778": {
+    "logradouro":"Rua Rosilda Alves de Lima",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-770": {
+    "logradouro":"Rua Rui Farias da Silva",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-782": {
+    "logradouro":"Rua Samuel Canuto da Costa",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-766": {
+    "logradouro":"Rua Sebastião Ferreira de Lucena",
+    "bairro":"Novo Horizonte"
+  },
+  "58704-826": {
+    "logradouro":"Rua Severina Dantas",
+    "bairro":"Novo Horizonte"
+  },
+  "58703-627": {
+    "logradouro":"Rua Thiago Torres Costa",
+    "bairro":"Novo Horizonte"
+  },
+  "58706-657": {
+    "logradouro":"Avenida Deputado Octacílio Nóbrega de Queiroz",
+    "bairro":"Salgadinho"
+  },
+  "58706-664": {
+    "logradouro":"Avenida Doutor Francisco Soares de Sá",
+    "bairro":"Salgadinho"
+  },
+  "58706-665": {
+    "logradouro":"Avenida Felicidade Campos Cavalcanti",
+    "bairro":"Salgadinho"
+  },
+  "58706-658": {
+    "logradouro":"Avenida Governador Ernani Aires Sátyro e Sousa",
+    "bairro":"Salgadinho"
+  },
+  "58706-660": {
+    "logradouro":"Avenida Governador João Agripino Filho",
+    "bairro":"Salgadinho"
+  },
+  "58706-653": {
+    "logradouro":"Avenida João Olegário de Araújo",
+    "bairro":"Salgadinho"
+  },
+  "58706-652": {
+    "logradouro":"Avenida Maria Generina de Araújo",
+    "bairro":"Salgadinho"
+  },
+  "58706-656": {
+    "logradouro":"Avenida Vereador Rênio Araújo Torres",
+    "bairro":"Salgadinho"
+  },
+  "58706-500": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Salgadinho"
+  },
+  "58706-580": {
+    "logradouro":"Rua Agostinho C J Justo",
+    "bairro":"Salgadinho"
+  },
+  "58706-503": {
+    "logradouro":"Rua Alaíde Vieira de Lucena",
+    "bairro":"Salgadinho"
+  },
+  "58706-643": {
+    "logradouro":"Rua Alexandrino Alves da Silva",
+    "bairro":"Salgadinho"
+  },
+  "58706-630": {
+    "logradouro":"Rua Alfredo Fernandes de Almeida",
+    "bairro":"Salgadinho"
+  },
+  "58706-550": {
+    "logradouro":"Rua Alfredo Lustosa Cabral",
+    "bairro":"Salgadinho"
+  },
+  "58706-590": {
+    "logradouro":"Rua Aluízio Lima",
+    "bairro":"Salgadinho"
+  },
+  "58706-604": {
+    "logradouro":"Rua Antônio Martins Filho",
+    "bairro":"Salgadinho"
+  },
+  "58706-525": {
+    "logradouro":"Rua Belarmino de Castro Nóbrega",
+    "bairro":"Salgadinho"
+  },
+  "58706-645": {
+    "logradouro":"Rua Deusenita Alves do Nascimento",
+    "bairro":"Salgadinho"
+  },
+  "58706-588": {
+    "logradouro":"Rua Dinamérico Almeida",
+    "bairro":"Salgadinho"
+  },
+  "58706-567": {
+    "logradouro":"Rua Doutor Francisco Bacamarte",
+    "bairro":"Salgadinho"
+  },
+  "58706-505": {
+    "logradouro":"Rua Doutor Pedro Firmino",
+    "bairro":"Salgadinho"
+  },
+  "58706-555": {
+    "logradouro":"Rua Eloy Eneas de Sousa",
+    "bairro":"Salgadinho"
+  },
+  "58706-666": {
+    "logradouro":"Rua Evangelista Zacarias Salvador Pereira",
+    "bairro":"Salgadinho"
+  },
+  "58706-585": {
+    "logradouro":"Rua Francisco Paulino da Silva",
+    "bairro":"Salgadinho"
+  },
+  "58706-520": {
+    "logradouro":"Rua Francisco Pontes",
+    "bairro":"Salgadinho"
+  },
+  "58706-640": {
+    "logradouro":"Rua Fred Brasileiro Costa",
+    "bairro":"Salgadinho"
+  },
+  "58706-600": {
+    "logradouro":"Rua Inácio Ferreira de Lucena",
+    "bairro":"Salgadinho"
+  },
+  "58706-642": {
+    "logradouro":"Rua Inácio Pedro Monteiro",
+    "bairro":"Salgadinho"
+  },
+  "58706-540": {
+    "logradouro":"Rua João Xavier de Sá",
+    "bairro":"Salgadinho"
+  },
+  "58706-563": {
+    "logradouro":"Rua José Soares de Lima",
+    "bairro":"Salgadinho"
+  },
+  "58706-565": {
+    "logradouro":"Rua Luiz de França Vieira",
+    "bairro":"Salgadinho"
+  },
+  "58706-528": {
+    "logradouro":"Rua Luiz Soares de Sá",
+    "bairro":"Salgadinho"
+  },
+  "58706-510": {
+    "logradouro":"Rua Manoel Torres",
+    "bairro":"Salgadinho"
+  },
+  "58706-606": {
+    "logradouro":"Rua Manoel Valdevino",
+    "bairro":"Salgadinho"
+  },
+  "58706-610": {
+    "logradouro":"Rua Maria das Chagas Candeias Pereira",
+    "bairro":"Salgadinho"
+  },
+  "58706-570": {
+    "logradouro":"Rua Maria das Dores Lopes",
+    "bairro":"Salgadinho"
+  },
+  "58706-602": {
+    "logradouro":"Rua Otávio Maia",
+    "bairro":"Salgadinho"
+  },
+  "58706-667": {
+    "logradouro":"Rua Pastor Frank Dyer",
+    "bairro":"Salgadinho"
+  },
+  "58706-522": {
+    "logradouro":"Rua Pedro Marinho Nóbrega",
+    "bairro":"Salgadinho"
+  },
+  "58706-560": {
+    "logradouro":"Rua Professora Cristina Lima",
+    "bairro":"Salgadinho"
+  },
+  "58706-532": {
+    "logradouro":"Rua Rebeca Furtado Costa Souza",
+    "bairro":"Salgadinho"
+  },
+  "58706-530": {
+    "logradouro":"Rua Rotary",
+    "bairro":"Salgadinho"
+  },
+  "58706-508": {
+    "logradouro":"Rua Severino Ferreira Barros",
+    "bairro":"Salgadinho"
+  },
+  "58706-575": {
+    "logradouro":"Rua Severino Lustosa Morais",
+    "bairro":"Salgadinho"
+  },
+  "58706-659": {
+    "logradouro":"Rua Tabelião Aldo Sátiro Xavier",
+    "bairro":"Salgadinho"
+  },
+  "58706-558": {
+    "logradouro":"Rua Tereza Praxedes dos Santos",
+    "bairro":"Salgadinho"
+  },
+  "58706-572": {
+    "logradouro":"Rua Terezinha Monteiro do Nascimento",
+    "bairro":"Salgadinho"
+  },
+  "58706-607": {
+    "logradouro":"Rua Vicente Mariano de Sousa",
+    "bairro":"Salgadinho"
+  },
+  "58706-595": {
+    "logradouro":"Travessa Aluízio Lima",
+    "bairro":"Salgadinho"
+  },
+  "58708-110": {
+    "logradouro":"Avenida Universitária",
+    "bairro":"Santa Cecília"
+  },
+  "58708-022": {
+    "logradouro":"Rua Anatildes Lucena",
+    "bairro":"Santa Cecília"
+  },
+  "58708-100": {
+    "logradouro":"Rua Irineu Lacerda",
+    "bairro":"Santa Cecília"
+  },
+  "58708-113": {
+    "logradouro":"Rua João Salvino de Medeiros",
+    "bairro":"Santa Cecília"
+  },
+  "58708-035": {
+    "logradouro":"Rua Joaquim dos Santos",
+    "bairro":"Santa Cecília"
+  },
+  "58708-108": {
+    "logradouro":"Rua José Roosevelt Gomes",
+    "bairro":"Santa Cecília"
+  },
+  "58708-037": {
+    "logradouro":"Rua Paulo Viturino dos Santos",
+    "bairro":"Santa Cecília"
+  },
+  "58708-000": {
+    "logradouro":"Rua Santa Catarina",
+    "bairro":"Santa Cecília"
+  },
+  "58708-020": {
+    "logradouro":"Rua Santa Mônica",
+    "bairro":"Santa Cecília"
+  },
+  "58708-090": {
+    "logradouro":"Rua São Bento",
+    "bairro":"Santa Cecília"
+  },
+  "58708-115": {
+    "logradouro":"Rua São Cristovão",
+    "bairro":"Santa Cecília"
+  },
+  "58708-170": {
+    "logradouro":"Rua São Cristóvão",
+    "bairro":"Santa Cecília"
+  },
+  "58708-070": {
+    "logradouro":"Rua São Januário",
+    "bairro":"Santa Cecília"
+  },
+  "58708-050": {
+    "logradouro":"Rua São João",
+    "bairro":"Santa Cecília"
+  },
+  "58708-150": {
+    "logradouro":"Rua São Luiz",
+    "bairro":"Santa Cecília"
+  },
+  "58708-030": {
+    "logradouro":"Rua São Paulo",
+    "bairro":"Santa Cecília"
+  },
+  "58708-025": {
+    "logradouro": "Rua São Pedro - lado par",
+    "bairro": "Santa Cecília"
+  },
+  "58708-095": {
+    "logradouro":"Rua São Salvador",
+    "bairro":"Santa Cecília"
+  },
+  "58708-130": {
+    "logradouro":"Rua São Salvador",
+    "bairro":"Santa Cecília"
+  },
+  "58708-010": {
+    "logradouro":"Rua São Sebastião",
+    "bairro":"Santa Cecília"
+  },
+  "58708-190": {
+    "logradouro":"Rua São Vicente",
+    "bairro":"Santa Cecília"
+  },
+  "58701-080": {
+    "logradouro":"Rua Alexandrino Rodrigues",
+    "bairro":"Santo Antônio"
+  },
+  "58701-070": {
+    "logradouro":"Rua Alto Casteliano",
+    "bairro":"Santo Antônio"
+  },
+  "58701-063": {
+    "logradouro": "Rua Antônio Fragoso - lado ímpar",
+    "bairro": "Santo Antônio"
+  },
+  "58701-180": {
+    "logradouro":"Rua Antônio Palmeira",
+    "bairro":"Santo Antônio"
+  },
+  "58701-165": {
+    "logradouro":"Rua Basta Gomes",
+    "bairro":"Santo Antônio"
+  },
+  "58701-083": {
+    "logradouro":"Rua Biu da Coroa",
+    "bairro":"Santo Antônio"
+  },
+  "58701-090": {
+    "logradouro":"Rua Capitão Crizanto",
+    "bairro":"Santo Antônio"
+  },
+  "58701-025": {
+    "logradouro":"Rua Capitão Manoel Gomes",
+    "bairro":"Santo Antônio"
+  },
+  "58701-068": {
+    "logradouro":"Rua das Espinharas",
+    "bairro":"Santo Antônio"
+  },
+  "58701-045": {
+    "logradouro":"Rua Dezoito do Forte",
+    "bairro":"Santo Antônio"
+  },
+  "58701-008": {
+    "logradouro":"Rua do Prado",
+    "bairro":"Santo Antônio"
+  },
+  "58701-020": {
+    "logradouro":"Rua Dom Pedro II",
+    "bairro":"Santo Antônio"
+  },
+  "58701-100": {
+    "logradouro":"Rua Duque de Caxias",
+    "bairro":"Santo Antônio"
+  },
+  "58701-215": {
+    "logradouro":"Rua Elias Asfora",
+    "bairro":"Santo Antônio"
+  },
+  "58701-050": {
+    "logradouro":"Rua Escritor Augusto dos Anjos",
+    "bairro":"Santo Antônio"
+  },
+  "58701-060": {
+    "logradouro":"Rua Felipe Camarão",
+    "bairro":"Santo Antônio"
+  },
+  "58701-082": {
+    "logradouro":"Rua Frei João Machado",
+    "bairro":"Santo Antônio"
+  },
+  "58701-220": {
+    "logradouro":"Rua Inácio do Leão",
+    "bairro":"Santo Antônio"
+  },
+  "58701-000": {
+    "logradouro": "Rua Irineu Joffily - lado par",
+    "bairro": "Santo Antônio"
+  },
+  "58701-135": {
+    "logradouro": "Rua Irineu Joffily - lado ímpar",
+    "bairro": "Santo Antônio"
+  },
+  "58701-210": {
+    "logradouro":"Rua José Jorge",
+    "bairro":"Santo Antônio"
+  },
+  "58701-190": {
+    "logradouro":"Rua José Mendes",
+    "bairro":"Santo Antônio"
+  },
+  "58701-058": {
+    "logradouro":"Rua Luzia Nóbrega de Andrade",
+    "bairro":"Santo Antônio"
+  },
+  "58701-230": {
+    "logradouro":"Rua Major Vicente Jansen",
+    "bairro":"Santo Antônio"
+  },
+  "58701-110": {
+    "logradouro":"Rua Maria de Lourdes Brito",
+    "bairro":"Santo Antônio"
+  },
+  "58701-012": {
+    "logradouro":"Rua Nego",
+    "bairro":"Santo Antônio"
+  },
+  "58701-130": {
+    "logradouro":"Rua Nelson Rodrigues",
+    "bairro":"Santo Antônio"
+  },
+  "58701-250": {
+    "logradouro":"Rua Noé Trajano",
+    "bairro":"Santo Antônio"
+  },
+  "58701-170": {
+    "logradouro":"Rua Otílio de Sousa",
+    "bairro":"Santo Antônio"
+  },
+  "58701-030": {
+    "logradouro":"Rua Padre Anchieta",
+    "bairro":"Santo Antônio"
+  },
+  "58701-160": {
+    "logradouro":"Rua Pastor Eduardo Mundy",
+    "bairro":"Santo Antônio"
+  },
+  "58701-010": {
+    "logradouro":"Rua Peregrino de Araújo",
+    "bairro":"Santo Antônio"
+  },
+  "58701-040": {
+    "logradouro":"Rua Porfírio da Costa",
+    "bairro":"Santo Antônio"
+  },
+  "58701-140": {
+    "logradouro":"Rua Prefeito Oscar Torres",
+    "bairro":"Santo Antônio"
+  },
+  "58701-150": {
+    "logradouro":"Rua Santana",
+    "bairro":"Santo Antônio"
+  },
+  "58701-120": {
+    "logradouro":"Rua São José",
+    "bairro":"Santo Antônio"
+  },
+  "58701-105": {
+    "logradouro":"Rua Valmir Davi Coutinho",
+    "bairro":"Santo Antônio"
+  },
+  "58701-042": {
+    "logradouro":"Rua Vinte e Seis de Julho",
+    "bairro":"Santo Antônio"
+  },
+  "58701-062": {
+    "logradouro":"Rua Vinte e Seis de Outubro",
+    "bairro":"Santo Antônio"
+  },
+  "58701-072": {
+    "logradouro":"Travessa Alto Casteliano",
+    "bairro":"Santo Antônio"
+  },
+  "58701-005": {
+    "logradouro":"Travessa Belísia Gonçalves",
+    "bairro":"Santo Antônio"
+  },
+  "58701-092": {
+    "logradouro":"Travessa Capitão Crizanto",
+    "bairro":"Santo Antônio"
+  },
+  "58701-023": {
+    "logradouro":"Travessa Capitão Manoel Gomes",
+    "bairro":"Santo Antônio"
+  },
+  "58701-033": {
+    "logradouro":"Travessa Capitão Marinho",
+    "bairro":"Santo Antônio"
+  },
+  "58701-075": {
+    "logradouro":"Travessa Cícero José de Sousa",
+    "bairro":"Santo Antônio"
+  },
+  "58701-055": {
+    "logradouro":"Travessa Escritor Augusto dos Anjos",
+    "bairro":"Santo Antônio"
+  },
+  "58701-065": {
+    "logradouro":"Travessa Felipe Camarão",
+    "bairro":"Santo Antônio"
+  },
+  "58701-125": {
+    "logradouro":"Travessa Isabel Viana",
+    "bairro":"Santo Antônio"
+  },
+  "58701-212": {
+    "logradouro":"Travessa Mestre Elias",
+    "bairro":"Santo Antônio"
+  },
+  "58701-035": {
+    "logradouro":"Travessa Padre Anchieta",
+    "bairro":"Santo Antônio"
+  },
+  "58701-095": {
+    "logradouro":"Travessa Patrícia Vieira",
+    "bairro":"Santo Antônio"
+  },
+  "58701-103": {
+    "logradouro":"Travessa Senhor Gualberto",
+    "bairro":"Santo Antônio"
+  },
+  "58701-043": {
+    "logradouro":"Travessa Vinte e Seis de Julho",
+    "bairro":"Santo Antônio"
+  },
+  "58706-218": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"São Sebastião"
+  },
+  "58706-425": {
+    "logradouro":"Rua Alfredo Lustosa Cabral",
+    "bairro":"São Sebastião"
+  },
+  "58706-362": {
+    "logradouro":"Rua América Palmeira dos Santos",
+    "bairro":"São Sebastião"
+  },
+  "58706-110": {
+    "logradouro":"Rua Antônio Félix",
+    "bairro":"São Sebastião"
+  },
+  "58706-088": {
+    "logradouro":"Rua Antônio Leite da Silva",
+    "bairro":"São Sebastião"
+  },
+  "58706-040": {
+    "logradouro":"Rua Antônio Luiz",
+    "bairro":"São Sebastião"
+  },
+  "58706-230": {
+    "logradouro":"Rua Assis Wanderley",
+    "bairro":"São Sebastião"
+  },
+  "58706-380": {
+    "logradouro":"Rua Assis Wanderley",
+    "bairro":"São Sebastião"
+  },
+  "58706-100": {
+    "logradouro":"Rua Aurino Pereira",
+    "bairro":"São Sebastião"
+  },
+  "58706-004": {
+    "logradouro":"Rua Beatriz Silva",
+    "bairro":"São Sebastião"
+  },
+  "58706-392": {
+    "logradouro":"Rua Benedita Luzia de Lima",
+    "bairro":"São Sebastião"
+  },
+  "58706-325": {
+    "logradouro":"Rua Braz Morais",
+    "bairro":"São Sebastião"
+  },
+  "58706-390": {
+    "logradouro":"Rua Braz Morais",
+    "bairro":"São Sebastião"
+  },
+  "58706-220": {
+    "logradouro":"Rua Carlos Alberto Dantas",
+    "bairro":"São Sebastião"
+  },
+  "58706-418": {
+    "logradouro":"Rua Carmen Bernardo",
+    "bairro":"São Sebastião"
+  },
+  "58706-055": {
+    "logradouro":"Rua Chico Rosa",
+    "bairro":"São Sebastião"
+  },
+  "58706-020": {
+    "logradouro":"Rua Cícero Marques",
+    "bairro":"São Sebastião"
+  },
+  "58706-450": {
+    "logradouro":"Rua da Linha",
+    "bairro":"São Sebastião"
+  },
+  "58706-360": {
+    "logradouro":"Rua Djalma Nóbrega Medeiros",
+    "bairro":"São Sebastião"
+  },
+  "58706-440": {
+    "logradouro":"Rua Doutor Pedro Firmino",
+    "bairro":"São Sebastião"
+  },
+  "58706-384": {
+    "logradouro":"Rua Eronildo Inácio Costa",
+    "bairro":"São Sebastião"
+  },
+  "58706-190": {
+    "logradouro":"Rua Euclides Franco",
+    "bairro":"São Sebastião"
+  },
+  "58706-240": {
+    "logradouro":"Rua Euclides Gouveia",
+    "bairro":"São Sebastião"
+  },
+  "58706-120": {
+    "logradouro":"Rua Fátima de Lourdes",
+    "bairro":"São Sebastião"
+  },
+  "58706-080": {
+    "logradouro":"Rua Félix Araújo",
+    "bairro":"São Sebastião"
+  },
+  "58706-350": {
+    "logradouro":"Rua Francisca Maria da Luz",
+    "bairro":"São Sebastião"
+  },
+  "58706-128": {
+    "logradouro":"Rua Francisca Souza Dantas",
+    "bairro":"São Sebastião"
+  },
+  "58706-122": {
+    "logradouro":"Rua Francisco Cândido da Nóbrega",
+    "bairro":"São Sebastião"
+  },
+  "58706-369": {
+    "logradouro":"Rua Francisco Germano de Araújo",
+    "bairro":"São Sebastião"
+  },
+  "58706-386": {
+    "logradouro":"Rua Francisco Joca",
+    "bairro":"São Sebastião"
+  },
+  "58706-178": {
+    "logradouro":"Rua Francisco Justino Medeiros",
+    "bairro":"São Sebastião"
+  },
+  "58706-300": {
+    "logradouro":"Rua Geraldo Cabral",
+    "bairro":"São Sebastião"
+  },
+  "58706-406": {
+    "logradouro":"Rua Gilberto Taylor",
+    "bairro":"São Sebastião"
+  },
+  "58706-305": {
+    "logradouro":"Rua Guadalajara",
+    "bairro":"São Sebastião"
+  },
+  "58706-370": {
+    "logradouro":"Rua Guadalajara",
+    "bairro":"São Sebastião"
+  },
+  "58706-210": {
+    "logradouro":"Rua João Mariano de Oliveira",
+    "bairro":"São Sebastião"
+  },
+  "58706-317": {
+    "logradouro":"Rua Joaquina Medeiros de Lima",
+    "bairro":"São Sebastião"
+  },
+  "58706-222": {
+    "logradouro":"Rua José Corsino Peixoto",
+    "bairro":"São Sebastião"
+  },
+  "58706-382": {
+    "logradouro":"Rua José Francisco da Silva",
+    "bairro":"São Sebastião"
+  },
+  "58706-048": {
+    "logradouro":"Rua José Henrique Pereira",
+    "bairro":"São Sebastião"
+  },
+  "58706-185": {
+    "logradouro":"Rua José Marinho dos Santos",
+    "bairro":"São Sebastião"
+  },
+  "58706-102": {
+    "logradouro":"Rua José Martins Moura",
+    "bairro":"São Sebastião"
+  },
+  "58706-200": {
+    "logradouro":"Rua José Urquiza Carneiro",
+    "bairro":"São Sebastião"
+  },
+  "58706-188": {
+    "logradouro":"Rua Josefina Lima de Lucena",
+    "bairro":"São Sebastião"
+  },
+  "58706-302": {
+    "logradouro":"Rua Justino Gomes",
+    "bairro":"São Sebastião"
+  },
+  "58706-310": {
+    "logradouro":"Rua Lima Campos",
+    "bairro":"São Sebastião"
+  },
+  "58706-044": {
+    "logradouro":"Rua Luiz Lindermam de Queiroz",
+    "bairro":"São Sebastião"
+  },
+  "58706-470": {
+    "logradouro":"Rua Luiz Linderman",
+    "bairro":"São Sebastião"
+  },
+  "58706-165": {
+    "logradouro":"Rua Luiz Marinho dos Santos",
+    "bairro":"São Sebastião"
+  },
+  "58706-022": {
+    "logradouro":"Rua Manoel Alves de Figueiredo",
+    "bairro":"São Sebastião"
+  },
+  "58706-480": {
+    "logradouro":"Rua Manoel Alves de Figueiredo",
+    "bairro":"São Sebastião"
+  },
+  "58706-060": {
+    "logradouro":"Rua Manoel Balbino",
+    "bairro":"São Sebastião"
+  },
+  "58706-140": {
+    "logradouro":"Rua Manoel Brito Sobrinho",
+    "bairro":"São Sebastião"
+  },
+  "58706-160": {
+    "logradouro":"Rua Manoel Gonçalves",
+    "bairro":"São Sebastião"
+  },
+  "58706-082": {
+    "logradouro":"Rua Manoel Mendes Morais",
+    "bairro":"São Sebastião"
+  },
+  "58706-420": {
+    "logradouro":"Rua Manoel Torres",
+    "bairro":"São Sebastião"
+  },
+  "58706-388": {
+    "logradouro":"Rua Manoel Valentim",
+    "bairro":"São Sebastião"
+  },
+  "58706-364": {
+    "logradouro":"Rua Maria do Socorro Sousa de Lucena",
+    "bairro":"São Sebastião"
+  },
+  "58706-046": {
+    "logradouro":"Rua Maria José Félix",
+    "bairro":"São Sebastião"
+  },
+  "58706-015": {
+    "logradouro":"Rua Maria Vicência Nóbrega",
+    "bairro":"São Sebastião"
+  },
+  "58706-090": {
+    "logradouro":"Rua Miguel Imperiano",
+    "bairro":"São Sebastião"
+  },
+  "58706-225": {
+    "logradouro":"Rua Nabor Wanderley",
+    "bairro":"São Sebastião"
+  },
+  "58706-050": {
+    "logradouro":"Rua Nelson Pereira",
+    "bairro":"São Sebastião"
+  },
+  "58706-400": {
+    "logradouro":"Rua Orlando Torres",
+    "bairro":"São Sebastião"
+  },
+  "58706-416": {
+    "logradouro":"Rua Otacílio Monteiro",
+    "bairro":"São Sebastião"
+  },
+  "58706-028": {
+    "logradouro":"Rua Pai Levino",
+    "bairro":"São Sebastião"
+  },
+  "58706-000": {
+    "logradouro":"Rua Pedro Benedito",
+    "bairro":"São Sebastião"
+  },
+  "58706-320": {
+    "logradouro":"Rua Pedro Benedito",
+    "bairro":"São Sebastião"
+  },
+  "58706-170": {
+    "logradouro":"Rua Pedro Saraiva Moura",
+    "bairro":"São Sebastião"
+  },
+  "58706-070": {
+    "logradouro":"Rua Pedro Vieira",
+    "bairro":"São Sebastião"
+  },
+  "58706-085": {
+    "logradouro":"Rua Raimundo Nunes da Silva",
+    "bairro":"São Sebastião"
+  },
+  "58706-323": {
+    "logradouro":"Rua Sargento Lourival Diniz",
+    "bairro":"São Sebastião"
+  },
+  "58706-410": {
+    "logradouro":"Rua Sargento Lourival Diniz",
+    "bairro":"São Sebastião"
+  },
+  "58706-006": {
+    "logradouro":"Rua Sargento Miguelzinho",
+    "bairro":"São Sebastião"
+  },
+  "58706-025": {
+    "logradouro":"Rua Sebastião Queiroz",
+    "bairro":"São Sebastião"
+  },
+  "58706-125": {
+    "logradouro":"Rua Severino Alves dos Santos",
+    "bairro":"São Sebastião"
+  },
+  "58706-408": {
+    "logradouro":"Rua Severino Clemente",
+    "bairro":"São Sebastião"
+  },
+  "58706-365": {
+    "logradouro":"Rua Severino Paulo Barbosa",
+    "bairro":"São Sebastião"
+  },
+  "58706-430": {
+    "logradouro":"Rua Tabelião Manoel Fernandes",
+    "bairro":"São Sebastião"
+  },
+  "58706-086": {
+    "logradouro":"Rua Terezinha Araújo",
+    "bairro":"São Sebastião"
+  },
+  "58706-333": {
+    "logradouro":"Rua Tião Pereira",
+    "bairro":"São Sebastião"
+  },
+  "58706-330": {
+    "logradouro":"Rua Valdemar Vieira",
+    "bairro":"São Sebastião"
+  },
+  "58706-130": {
+    "logradouro":"Rua Vandy Alves",
+    "bairro":"São Sebastião"
+  },
+  "58706-052": {
+    "logradouro":"Rua Zezinho do Correio",
+    "bairro":"São Sebastião"
+  },
+  "58706-340": {
+    "logradouro":"Rua Zito Moreira",
+    "bairro":"São Sebastião"
+  },
+  "58706-115": {
+    "logradouro":"Travessa Antônio Félix",
+    "bairro":"São Sebastião"
+  },
+  "58706-328": {
+    "logradouro":"Travessa Braz Morais",
+    "bairro":"São Sebastião"
+  },
+  "58706-395": {
+    "logradouro":"Travessa Braz Morais",
+    "bairro":"São Sebastião"
+  },
+  "58706-174": {
+    "logradouro":"Travessa Euclides Franco",
+    "bairro":"São Sebastião"
+  },
+  "58706-375": {
+    "logradouro":"Travessa Guadalajara",
+    "bairro":"São Sebastião"
+  },
+  "58706-215": {
+    "logradouro":"Travessa João Mariano de Oliveira",
+    "bairro":"São Sebastião"
+  },
+  "58706-083": {
+    "logradouro":"Travessa Josefa Aragão",
+    "bairro":"São Sebastião"
+  },
+  "58706-315": {
+    "logradouro":"Travessa Lima Campos",
+    "bairro":"São Sebastião"
+  },
+  "58706-228": {
+    "logradouro":"Travessa Nabor Wanderley",
+    "bairro":"São Sebastião"
+  },
+  "58706-176": {
+    "logradouro":"Travessa Pedro Saraiva Moura",
+    "bairro":"São Sebastião"
+  },
+  "58706-435": {
+    "logradouro":"Travessa Tabelião Manoel Fernandes",
+    "bairro":"São Sebastião"
+  },
+  "58705-367": {
+    "logradouro":"Avenida Caetano Marinho da Silva",
+    "bairro":"Sete Casas"
+  },
+  "58705-304": {
+    "logradouro":"Avenida Juazeiro",
+    "bairro":"Sete Casas"
+  },
+  "58705-368": {
+    "logradouro":"Avenida Marconi Cesar Palmeira",
+    "bairro":"Sete Casas"
+  },
+  "58705-275": {
+    "logradouro":"Rodovia BR-230",
+    "bairro":"Sete Casas"
+  },
+  "58705-315": {
+    "logradouro":"Rua Antônio Félix",
+    "bairro":"Sete Casas"
+  },
+  "58705-382": {
+    "logradouro":"Rua Armando Gonçalves da Silva",
+    "bairro":"Sete Casas"
+  },
+  "58705-287": {
+    "logradouro":"Rua Aroeira",
+    "bairro":"Sete Casas"
+  },
+  "58705-308": {
+    "logradouro":"Rua Baraúna",
+    "bairro":"Sete Casas"
+  },
+  "58705-332": {
+    "logradouro":"Rua Euclides Franco",
+    "bairro":"Sete Casas"
+  },
+  "58705-380": {
+    "logradouro":"Rua Joana D'arc Tavares Silva",
+    "bairro":"Sete Casas"
+  },
+  "58705-381": {
+    "logradouro":"Rua José Carlos da Silva Marques",
+    "bairro":"Sete Casas"
+  },
+  "58705-384": {
+    "logradouro":"Rua José Francisco da Silva",
+    "bairro":"Sete Casas"
+  },
+  "58705-300": {
+    "logradouro":"Rua José Martins da Silva",
+    "bairro":"Sete Casas"
+  },
+  "58705-365": {
+    "logradouro":"Rua Jussara de Oliveira Santos",
+    "bairro":"Sete Casas"
+  },
+  "58705-306": {
+    "logradouro":"Rua Mandacaru",
+    "bairro":"Sete Casas"
+  },
+  "58705-307": {
+    "logradouro":"Rua Maniçoba",
+    "bairro":"Sete Casas"
+  },
+  "58705-391": {
+    "logradouro":"Rua Maria Augusta Luz Araújo",
+    "bairro":"Sete Casas"
+  },
+  "58705-392": {
+    "logradouro":"Rua Maria de Fátima Barreto Mariano",
+    "bairro":"Sete Casas"
+  },
+  "58705-390": {
+    "logradouro":"Rua Maria Luiz Calixto",
+    "bairro":"Sete Casas"
+  },
+  "58705-385": {
+    "logradouro":"Rua Maria Mercedes Mendes de Menezes",
+    "bairro":"Sete Casas"
+  },
+  "58705-322": {
+    "logradouro":"Rua Pedro Saraiva Moura",
+    "bairro":"Sete Casas"
+  },
+  "58705-280": {
+    "logradouro":"Rua Prefeito Biroca Firmino",
+    "bairro":"Sete Casas"
+  },
+  "58705-383": {
+    "logradouro":"Rua Rita Almeida Bezerra",
+    "bairro":"Sete Casas"
+  },
+  "58705-301": {
+    "logradouro":"Rua Umburana",
+    "bairro":"Sete Casas"
+  },
+  "58705-361": {
+    "logradouro":"Rua Vicente Martins da Nóbrega",
+    "bairro":"Sete Casas"
+  },
+  "58705-331": {
+    "logradouro":"Travessa Euclides Franco",
+    "bairro":"Sete Casas"
+  },
+  "58705-321": {
+    "logradouro":"Travessa Pedro Saraiva Moura",
+    "bairro":"Sete Casas"
+  },
+  "58706-030": {
+    "logradouro":"Rua João Mariano",
+    "bairro":"Vitória"
+  },
+  "58706-180": {
+    "logradouro":"Rua Luiz Marinho dos Santos",
+    "bairro":"Vitória"
+  },
+  "58706-010": {
+    "logradouro":"Rua Nabor Wanderley",
+    "bairro":"Vitória"
+  },
+  "58706-150": {
+    "logradouro":"Rua Sebastião Queiroz",
+    "bairro":"Vitória"
+  }
+}

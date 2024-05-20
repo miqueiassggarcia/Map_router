@@ -2,7 +2,7 @@ from shapely.geometry import Point, Polygon
 import json
 from process import graph
 
-with open('mapping/data/suburbiospatos.geojson') as f:
+with open('map_data/suburbiospatos.geojson') as f:
   data = json.load(f)
 
 # Define your polygon using a list of coordinates

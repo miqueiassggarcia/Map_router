@@ -1,7 +1,7 @@
 import json
 import random
 
-with open("mapping/data/ceps.json", "r", encoding="utf-8") as json_file:
+with open("map_data/ceps.json", "r", encoding="utf-8") as json_file:
   ceps = json.load(json_file)
 
 def generate_random_address():
