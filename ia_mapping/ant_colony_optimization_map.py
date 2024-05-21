@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import random
 import math
 from process import graph
@@ -13,13 +12,11 @@ class AntColony:
         self.alpha = alpha
         self.beta = beta
         self.nodes = list(graph.keys())
-        self.pheromones = {node: {connected_node: 1.0 for connected_node in connections} for node, connections in graph.items()}
         
-        # Ensure all pairs have a pheromone entry, even if no direct connection exists
-        for node in self.nodes:
-            for other_node in self.nodes:
-                if other_node not in self.pheromones[node]:
-                    self.pheromones[node][other_node] = 1.0
+        # Initialize pheromones in the graph structure
+        for connections in graph.values():
+            for connection in connections:
+                connection['pheromone'] = 1.0
 
     def run(self, points):
         best_path = None
@@ -63,10 +60,15 @@ class AntColony:
         total_pheromone = 0
         
         for neighbor in points_to_visit:
-            pheromone = self.pheromones[current_node][neighbor] ** self.alpha
-            heuristic = (1.0 / self.distance(current_node, neighbor)) ** self.beta
-            probabilities.append((neighbor, pheromone * heuristic))
-            total_pheromone += pheromone * heuristic
+            connection = next((conn for conn in self.graph[current_node] if conn['connect_to'] == neighbor), None)
+            if connection:
+                pheromone = connection['pheromone'] ** self.alpha
+                heuristic = (1.0 / connection['distance']) ** self.beta
+                probabilities.append((neighbor, pheromone * heuristic))
+                total_pheromone += pheromone * heuristic
+        
+        if not probabilities:
+            return random.choice(list(points_to_visit))
         
         probabilities = [(node, prob / total_pheromone) for node, prob in probabilities]
         r = random.uniform(0, 1)
@@ -82,31 +84,27 @@ class AntColony:
     def calculate_path_length(self, path):
         length = 0
         for i in range(len(path) - 1):
-            length += self.distance(path[i], path[i + 1])
+            connection = next((conn for conn in self.graph[path[i]] if conn['connect_to'] == path[i + 1]), None)
+            if connection:
+                length += connection['distance']
         return length
 
-    def distance(self, node1, node2):
-        return math.sqrt((node1[0] - node2[0]) ** 2 + (node1[1] - node2[1]) ** 2)
-
     def update_pheromones(self, all_paths):
-        for node in self.pheromones:
-            for neighbor in self.pheromones[node]:
-                self.pheromones[node][neighbor] *= (1 - self.decay)
+        # Decay existing pheromones
+        for node, connections in self.graph.items():
+            for conn in connections:
+                conn['pheromone'] *= (1 - self.decay)
         
+        # Add new pheromones based on paths
         for path, path_length in all_paths:
             for i in range(len(path) - 1):
-                self.pheromones[path[i]][path[i + 1]] += 1.0 / path_length
-            self.pheromones[path[-1]][path[0]] += 1.0 / path_length  # to complete the cycle
-
-def plot_path(graph, path):
-    for node in graph:
-        for connected_node in graph[node]:
-            plt.plot([node[1], connected_node[1]], [node[0], connected_node[0]], 'k-', alpha=0.3)
-    path_x = [node[1] for node in path]
-    path_y = [node[0] for node in path]
-    plt.plot(path_x, path_y, marker='o')
-    plt.gca().invert_yaxis()
-    plt.show()
+                connection = next((conn for conn in self.graph[path[i]] if conn['connect_to'] == path[i + 1]), None)
+                if connection:
+                    connection['pheromone'] += 1.0 / path_length
+            # Complete the cycle
+            connection = next((conn for conn in self.graph[path[-1]] if conn['connect_to'] == path[0]), None)
+            if connection:
+                connection['pheromone'] += 1.0 / path_length
 
 def main():
     # Example dictionary of global coordinates
@@ -120,6 +118,7 @@ def main():
     listOfNodes = list(graph.keys())
 
     points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(10)]
+    print(points)
     
     colony = AntColony(graph, num_ants=10, num_iterations=100, decay=0.1, alpha=1, beta=5)
     best_path, best_length = colony.run(points)
@@ -127,6 +126,4 @@ def main():
     print("Best path:", best_path)
     print("Best path length:", best_length)
     
-    plot_path(graph, best_path)
-
 main()

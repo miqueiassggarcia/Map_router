@@ -11,7 +11,7 @@ def ant_colony_optimization(points, n_ants, n_iterations, alpha, beta, evaporati
   best_path = None
   best_path_length = np.inf
     
-  for iteration in range(n_iterations):
+  for _ in range(n_iterations):
     paths = []
     path_lengths = []
     
@@ -72,5 +72,5 @@ def ant_colony_optimization(points, n_ants, n_iterations, alpha, beta, evaporati
   plt.show()
     
 # Example usage:
-points = np.random.rand(50, 3) # Generate 10 random 3D points
+points = np.random.rand(10, 3) # Generate 10 random 3D points
 ant_colony_optimization(points, n_ants=20, n_iterations=100, alpha=1, beta=1, evaporation_rate=0.5, Q=1)
