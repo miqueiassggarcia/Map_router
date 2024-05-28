@@ -2,7 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 import math
+<<<<<<< Updated upstream
 from process import graph
+=======
+from process_vs import graph
+from dijkstra import dijkstra
+>>>>>>> Stashed changes
 
 class AntColony:
     def __init__(self, graph, num_ants, num_iterations, decay, alpha=1, beta=1):
@@ -14,6 +19,8 @@ class AntColony:
         self.beta = beta
         self.nodes = list(graph.keys())
         self.pheromones = {node: {connected_node: 1.0 for connected_node in connections} for node, connections in graph.items()}
+        self.distances = {}
+        self.paths = {}
         
         # Ensure all pairs have a pheromone entry, even if no direct connection exists
         for node in self.nodes:
@@ -22,6 +29,12 @@ class AntColony:
                     self.pheromones[node][other_node] = 1.0
 
     def run(self, points):
+        for point in points:
+            for point2 in points:
+                if point != point2:
+                    path, path_length = dijkstra(graph, point, point2)
+                    self.distances[(point, point2)] = path_length
+                    self.paths[(point, point2)] = path
         best_path = None
         best_path_length = float('inf')
         
@@ -34,7 +47,13 @@ class AntColony:
                 best_path = shortest_path[0]
                 best_path_length = shortest_path[1]
         
-        return best_path, best_path_length
+        final_path = []
+        for i in range(len(best_path) - 1):
+            if(i != len(best_path) - 1):
+                final_path += self.paths[(best_path[i], best_path[i+1])][:-1]
+            else:
+                final_path += self.paths[(best_path[i], best_path[i+1])]
+        return best_path, best_path_length, final_path
 
     def construct_solutions(self, points):
         all_paths = []
@@ -64,7 +83,7 @@ class AntColony:
         
         for neighbor in points_to_visit:
             pheromone = self.pheromones[current_node][neighbor] ** self.alpha
-            heuristic = (1.0 / self.distance(current_node, neighbor)) ** self.beta
+            heuristic = (1.0 / self.distances[(current_node, neighbor)]) ** self.beta
             probabilities.append((neighbor, pheromone * heuristic))
             total_pheromone += pheromone * heuristic
         
@@ -82,11 +101,8 @@ class AntColony:
     def calculate_path_length(self, path):
         length = 0
         for i in range(len(path) - 1):
-            length += self.distance(path[i], path[i + 1])
+            length += self.distances[(path[i], path[i + 1])]
         return length
-
-    def distance(self, node1, node2):
-        return math.sqrt((node1[0] - node2[0]) ** 2 + (node1[1] - node2[1]) ** 2)
 
     def update_pheromones(self, all_paths):
         for node in self.pheromones:
@@ -98,29 +114,55 @@ class AntColony:
                 self.pheromones[path[i]][path[i + 1]] += 1.0 / path_length
             self.pheromones[path[-1]][path[0]] += 1.0 / path_length  # to complete the cycle
 
-def plot_path(graph, path):
+def plot_path(graph, path, points=None):
+    # Plot the edges of the graph
     for node in graph:
         for connected_node in graph[node]:
             plt.plot([node[1], connected_node[1]], [node[0], connected_node[0]], 'k-', alpha=0.3)
+    
+    # Extract path coordinates
     path_x = [node[1] for node in path]
     path_y = [node[0] for node in path]
-    plt.plot(path_x, path_y, marker='o')
+    
+    # Plot the path lines
+    plt.plot(path_x, path_y)
+    
+    # Plot the path points with red color
+    plt.scatter(path_x, path_y)
+    
+    # Plot additional points if provided
+    if points:
+        points_x = [point[1] for point in points]
+        points_y = [point[0] for point in points]
+        plt.scatter(points_x, points_y, color='red', marker='o')
+    
     plt.gca().invert_yaxis()
+    
     plt.show()
 
 def main():
     listOfNodes = list(graph.keys())
 
+<<<<<<< Updated upstream
     points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(10)]
     # points = listOfNodes
     
     colony = AntColony(graph, num_ants=10, num_iterations=50, decay=0.1, alpha=1, beta=5)
     best_path, best_length = colony.run(points)
+=======
+    points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(5)]
+    # points = listOfNodes
+    
+    colony = AntColony(graph, num_ants=10, num_iterations=100, decay=0.1, alpha=1, beta=5)
+    best_path, best_length, final_path = colony.run(points)
+>>>>>>> Stashed changes
     
     print("Best path:", best_path)
     print("Best path length:", best_length)
+    print("Best path length edges:", final_path)
     
     plot_path(graph, best_path)
+    plot_path(graph, final_path, best_path)
 
 if __name__ == "__main__":
     main()
