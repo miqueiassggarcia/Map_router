@@ -2,12 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 import math
-<<<<<<< Updated upstream
-from process import graph
-=======
 from process_vs import graph
 from dijkstra import dijkstra
->>>>>>> Stashed changes
 
 class AntColony:
     def __init__(self, graph, num_ants, num_iterations, decay, alpha=1, beta=1):
@@ -143,19 +139,11 @@ def plot_path(graph, path, points=None):
 def main():
     listOfNodes = list(graph.keys())
 
-<<<<<<< Updated upstream
-    points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(10)]
-    # points = listOfNodes
-    
-    colony = AntColony(graph, num_ants=10, num_iterations=50, decay=0.1, alpha=1, beta=5)
-    best_path, best_length = colony.run(points)
-=======
     points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(5)]
     # points = listOfNodes
     
     colony = AntColony(graph, num_ants=10, num_iterations=100, decay=0.1, alpha=1, beta=5)
     best_path, best_length, final_path = colony.run(points)
->>>>>>> Stashed changes
     
     print("Best path:", best_path)
     print("Best path length:", best_length)
