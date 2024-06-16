@@ -1,7 +1,7 @@
 import json
 
 # Read GeoJSON file
-with open('map_data/minipatoscity.geojson') as f:
+with open('../map_data/minipatoscity.geojson') as f:
   data = json.load(f)
 
 def calculate_distance(coordinates1, coordinates2):
