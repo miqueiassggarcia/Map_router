@@ -1,10 +1,10 @@
 import random
-from mapping.generate_random_address import generate_random_address
+from ia_mapping.generate_random_street import generate_random_suburb_and_street
 import uuid
 from datetime import timedelta, datetime
-from mapping.dijkstra import dijkstra
+from ia_mapping.get_road import get_coordinates_by_road
+from ia_mapping.dijkstra import dijkstra
 from ia_mapping.process_city import graph
-from mapping.get_coordinates_per_address import get_coordenadas_por_endereco
 
 # Function to generate random CPF number
 def generate_cpf():
@@ -43,7 +43,7 @@ def generate_priority(properties):
   return priority
 
 # Function to generate random delivery details
-def generate_delivery(rua, bairro):
+def generate_delivery(rua):
   names = [f"Package {chr(ord('A') + i)}" for i in range(26)]
   expresso = random.choices(population=[False, True], weights=[0.7, 0.3], k=1)
   fragil = random.choices(population=[False, True], weights=[0.6, 0.4], k=1)
@@ -51,31 +51,28 @@ def generate_delivery(rua, bairro):
   volume = round(random.uniform(0.1, 5.0), 2)
   lucro = round(random.uniform(10.0, 150.0), 2)
   data = datetime.now() + timedelta(days=random.randint(1, 30))
-  latitude, longitude = get_coordenadas_por_endereco(rua, bairro)
-  if(latitude is not None and longitude is not None):
-    path, distance = dijkstra(graph, tuple([longitude, latitude]), (-37.2888462, -7.0266789))
-    time_estimated = calculate_time_by_distance(distance * 250, 60) * 60
-    time_formated = format_minutes(time_estimated)
+  coordinates_of_road = get_coordinates_by_road(rua)
+  path, distance = dijkstra(graph, tuple(coordinates_of_road), (-37.2888462, -7.0266789))
+  time_estimated = calculate_time_by_distance(distance * 250, 60) * 60
+  time_formated = format_minutes(time_estimated)
 
-    properties = {
-      "Nome": random.choice(names),
-      "Expresso": expresso[0],
-      "Peso": peso,
-      "Volume": volume,
-      "Fragil": fragil[0],
-      "Lucro": lucro,
-      "Data": data,
-      "Distancia": distance * 250,
-      "Tempo": time_formated,
-      "Latitude": latitude,
-      "Longitude": longitude
-    }
+  properties = {
+    "Nome": random.choice(names),
+    "Expresso": expresso[0],
+    "Peso": peso,
+    "Volume": volume,
+    "Fragil": fragil[0],
+    "Lucro": lucro,
+    "Data": data,
+    "Distancia": distance * 250,
+    "Tempo": time_formated,
+    "Latitude": coordinates_of_road[1],
+    "Longitude": coordinates_of_road[0]
+  }
 
-    properties["Priority"] = generate_priority(properties)
+  properties["Priority"] = generate_priority(properties)
 
-    return properties
-  else:
-    return None
+  return properties
 
 # Function to populate the tables with random data
 def populate_tables(conn, num_records):
@@ -90,44 +87,42 @@ def populate_tables(conn, num_records):
     cur.execute("INSERT INTO Remetente (CPF, Nome) VALUES (%s, %s)", (cpf, nome))
 
     endereco_id = str(uuid.uuid4())
-    address = generate_random_address()
+    bairro, rua = generate_random_suburb_and_street()
     cur.execute("""
-      INSERT INTO Endereco (Id, CEP, Logradouro, Bairro, Municipio, Estado) 
-      VALUES (%s, %s, %s, %s, %s, %s)
+      INSERT INTO Endereco (Id, Logradouro, Bairro, Municipio, Estado) 
+      VALUES (%s, %s, %s, %s, %s)
       """, (
         endereco_id,
-        address['cep'],
-        address['logradouro'],
-        address['bairro'],
+        rua,
+        bairro,
         municipio,
         estado
       )
     )
 
     entrega_id = str(uuid.uuid4())
-    delivery = generate_delivery(address['logradouro'], address['bairro'])
-    if(delivery is not None):
-      cur.execute("""
-        INSERT INTO Entrega (Id, Nome, Expresso, Peso, Volume, Fragil, Lucro, Distancia, Tempo, Data, Prioridade, Latitude, Longitude, EnderecoExt, RemetenteCPF) 
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-        """, (
-          entrega_id,
-          delivery['Nome'],
-          delivery['Expresso'],
-          delivery['Peso'],
-          delivery['Volume'],
-          delivery['Fragil'],
-          delivery['Lucro'],
-          delivery['Distancia'],
-          delivery['Tempo'],
-          delivery['Data'],
-          delivery['Priority'],
-          delivery['Latitude'],
-          delivery['Longitude'],
-          endereco_id,
-          cpf
-        )
+    delivery = generate_delivery(rua)
+    cur.execute("""
+      INSERT INTO Entrega (Id, Nome, Expresso, Peso, Volume, Fragil, Lucro, Distancia, Tempo, Data, Prioridade, Latitude, Longitude, EnderecoExt, RemetenteCPF) 
+      VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+      """, (
+        entrega_id,
+        delivery['Nome'],
+        delivery['Expresso'],
+        delivery['Peso'],
+        delivery['Volume'],
+        delivery['Fragil'],
+        delivery['Lucro'],
+        delivery['Distancia'],
+        delivery['Tempo'],
+        delivery['Data'],
+        delivery['Priority'],
+        delivery['Latitude'],
+        delivery['Longitude'],
+        endereco_id,
+        cpf
       )
+    )
 
 
   conn.commit()

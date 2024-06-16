@@ -9,7 +9,39 @@ def process_db_response(packages):
   total_volume = packages[0][4]
 
   i = 0
-  while(total_weight + packages[i+1][3] <= 400 and (total_volume + packages[i+1][4]) <= 10 and i < len(packages)):
+  if(len(packages) > 1):
+    print(len(packages))
+    # while(total_weight + packages[i+1][3] <= 400 and (total_volume + packages[i+1][4]) <= 10 and i < len(packages)):
+    while(i < len(packages)):
+      print(i)
+      sequence_of_packages.append({
+        "coordinate": (float(packages[i][12]), float(packages[i][11])),
+        "package": {
+          "id": packages[i][0],
+          "name": packages[i][1],
+          "expresso": packages[i][2],
+          "peso": float(packages[i][3]),
+          "volume": float(packages[i][4]),
+          "fragil": packages[i][5],
+          "time": packages[i][8],
+          "data": packages[i][9]
+        },
+        "sender": {
+          "cpf": packages[i][16],
+          "name": packages[i][15]
+        },
+        "address": {
+          "street": packages[i][17],
+          "suburb": packages[i][18],
+          "city": packages[i][19],
+          "state": packages[i][20]
+        }
+      })
+
+      total_weight += packages[i][3]
+      total_volume += packages[i][4]
+      i += 1
+  else:
     sequence_of_packages.append({
       "coordinate": (float(packages[i][12]), float(packages[i][11])),
       "package": {
@@ -33,10 +65,6 @@ def process_db_response(packages):
         "state": packages[i][20]
       }
     })
-
-    i += 1
-    total_weight += packages[i][3]
-    total_volume += packages[i][4]
   
   return sequence_of_packages
 
@@ -80,7 +108,7 @@ def process_express_packages(connection):
       LIMIT 100;
     """)
     if cur.rowcount > 0:
-        break
+      break
     time.sleep(1)
   
   expresso_packages = cur.fetchall()
@@ -133,7 +161,7 @@ def process_normal_packages(connection):
       LIMIT 100;
     """)
     if cur.rowcount > 0:
-        break
+      break
     time.sleep(1)
   
   expresso_packages = cur.fetchall()

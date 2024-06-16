@@ -7,6 +7,7 @@ from flask_cors import CORS
 from database.create_database import create_tables
 from database.feed_database import populate_tables
 from database.process_package import process_express_packages, process_normal_packages
+from ia_mapping.ant_colony_optimization_initia_city import finder
 
 load_dotenv()
 
@@ -20,7 +21,7 @@ cur.execute(f"DROP TABLE IF EXISTS endereco CASCADE;")
 cur.execute(f"DROP TABLE IF EXISTS entrega CASCADE;")
 cur.execute(f"DROP TABLE IF EXISTS remetente CASCADE;")
 create_tables(connection)
-populate_tables(connection, 5)
+populate_tables(connection, 10)
 
 @app.route('/populate', methods=['GET'])
 def populate():
@@ -31,9 +32,10 @@ def populate():
 def get_route_express():
   results = process_express_packages(connection)
   if not results:
+    print("teste")
     return jsonify({"message": "failed"})
   else:
-    return find_routes(results)
+    return finder(results)
 
 @app.route('/routes_normal', methods=['GET'])
 def get_route_normal():
@@ -41,7 +43,7 @@ def get_route_normal():
   if not results:
     return jsonify({"message": "failed"})
   else:
-    return find_routes(results)
+    return finder(results)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

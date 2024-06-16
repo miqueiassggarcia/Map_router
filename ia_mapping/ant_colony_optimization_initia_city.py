@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 import math
-from process_city import graph
-from dijkstra import dijkstra
+from ia_mapping.process_city import graph
+from ia_mapping.dijkstra import dijkstra
 
 class AntColony:
     def __init__(self, graph, num_ants, num_iterations, decay, alpha=1, beta=1):
@@ -136,16 +136,73 @@ def plot_path(graph, path, points=None):
     
     plt.show()
 
-def main():
-    listOfNodes = list(graph.keys())
+def finder(packages):
+    start = (-37.2888462, -7.0266789)
+    points = [start]
 
-    points = [listOfNodes[random.randint(0, len(listOfNodes)-1)] for _ in range(5)]
-    # points = listOfNodes
+    print(len(packages))
+
+    for i in range(len(packages)):
+        if(packages[i]["coordinate"] in graph):
+            points.append(packages[i]["coordinate"])
+        if(len(points) == 4):
+            break
     
+    print(points)
     colony = AntColony(graph, num_ants=10, num_iterations=100, decay=0.1, alpha=1, beta=5)
+    print("iniciou")
     best_path, best_length, final_path = colony.run(points)
+    print("fim")
     
-    return final_path
+    nodes = []
+    
+    if best_path is not None:
+        print("Best path:", best_path)
+        for path, next_path in best_path, best_path[1:]:
+            for i in range(len(packages)):
+                if(packages[i]["coordinate"] == path):
+                    index_of_package = i
+            listOfCoordinates = [final_path[0]]
+            for path2 in final_path:
+                if(path2 == next_path):
+                    break
+                listOfCoordinates.append(path2)
+            print(listOfCoordinates)
+
+            nodes.append(
+            {
+                "type": "Feature",
+                "geometry": {
+                "type": "LineString",
+                "coordinates": listOfCoordinates
+                },
+                "address": packages[index_of_package]["address"],
+                "sender": packages[index_of_package]["sender"],
+                "package": {
+                "id": packages[index_of_package]["package"]["id"],
+                "name": packages[index_of_package]["package"]["name"],
+                "expresso": packages[index_of_package]["package"]["expresso"],
+                "peso": float(packages[index_of_package]["package"]["peso"]),
+                "volume": float(packages[index_of_package]["package"]["volume"]),
+                "fragil": packages[index_of_package]["package"]["fragil"],
+                "time": packages[index_of_package]["package"]["time"].strftime('%H:%M:%S'),
+                "data": packages[index_of_package]["package"]["data"].strftime('%Y-%m-%d')
+                }
+            }
+            )
+    else:
+        print("No path found.")
+
+
+    output = {
+        "type": "FeatureCollection",
+        "generator": "overpass-turbo",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+        "sequence": best_path,
+        "features": nodes
+    }
+
+    return output
 
     # print("Best path:", best_path)
     # print("Best path length:", best_length)
@@ -153,6 +210,3 @@ def main():
     
     # plot_path(graph, best_path)
     # plot_path(graph, final_path, best_path)
-
-if __name__ == "__main__":
-    main()
