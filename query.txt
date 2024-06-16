@@ -22,6 +22,51 @@
 
 out;
 
+Patos city
+[out:json];
+
+(area["name"="Patos"]["border_type"=district];)->.a;
+
+(
+  way
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (area.a);
+);
+
+(._;>;);
+
+out;
+
+[out:json];
+
+(
+  way
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (around: 2000, -7.0258285, -37.2766817);
+);
+
+out geom;
+
 // The final query
 [out:json];
 // Fetch the area id into variable `a`
@@ -130,3 +175,76 @@ out skel qt;
 out body;
 >;
 out skel qt;
+
+
+[out:json];
+
+(area["name"~"Santa Cecília|Centro|Jatobá|Alto da Tubiba|Ana Leite|Bela Vista|Belo Horizonte|Bivar Olinto|Brasília|Distrito Industrial|Jardim Magnólia|Liberdade|Maternidade|Monte Castelo|Morada do Sol|Morro|Nova Conquista|Novo Horizonte|Noé Trajano|Salgadinho|Santo Antônio|Sete Casas|São Sebastião|Jardim Europa|Jardim Assunção|Estados"]["place"="suburb"];)->.a;
+
+(
+  way(around: 4000, -7.0258285, -37.2766817)
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (area.a);
+);
+
+(._;>;);
+
+out;
+
+Patos por ibge
+[out:json];
+
+(area["IBGE:GEOCODIGO"=251080805];)->.a;
+
+(
+  way(around: 4600, -7.0258285, -37.2766817)
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (area.a);
+);
+
+(._;>;);
+
+out;
+
+
+[out:json];
+
+(area["IBGE:GEOCODIGO"=251080805];)->.a;
+
+(
+  way(around: 4600, -7.0258285, -37.2766817)
+  ["highway"]
+  ["highway"!="footway"]
+  ["highway"!="bridleway"]
+  ["highway"!="steps"]
+  ["highway"!="path"]
+  ["highway"!="cycleway"]
+  ["highway"!="pedestrian"]
+  ["highway"!="proposed"]
+  ["highway"!="service"]
+  ["highway"!="living_street"]
+  ["highway"!="raceway"]
+  (area.a);
+);
+
+out geom;

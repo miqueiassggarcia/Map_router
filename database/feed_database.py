@@ -3,7 +3,7 @@ from mapping.generate_random_address import generate_random_address
 import uuid
 from datetime import timedelta, datetime
 from mapping.dijkstra import dijkstra
-from mapping.process import graph
+from ia_mapping.process_city import graph
 from mapping.get_coordinates_per_address import get_coordenadas_por_endereco
 
 # Function to generate random CPF number
