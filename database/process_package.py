@@ -13,7 +13,6 @@ def process_db_response(packages):
     print(len(packages))
     # while(total_weight + packages[i+1][3] <= 400 and (total_volume + packages[i+1][4]) <= 10 and i < len(packages)):
     while(i < len(packages)):
-      print(i)
       sequence_of_packages.append({
         "coordinate": (float(packages[i][12]), float(packages[i][11])),
         "package": {

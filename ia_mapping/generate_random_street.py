@@ -2,7 +2,7 @@ import json
 import random
 
 # Read GeoJSON file
-with open('map_data/minipatoscity.geojson') as f:
+with open('map_data/patos.geojson') as f:
   data = json.load(f)
 
 with open('map_data/bairrosruaspatos.json') as f:
