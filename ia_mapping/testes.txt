@@ -1,0 +1,100 @@
+1.735 nodes 5 pontos aleatórios
+Dijkstra: 0.02s, 
+ACO: 0.122s
+Tempo total: 0.142s, 
+
+1.735 nodes 10 pontos aleatórios
+Dijkstra: 0.07s, 
+ACO: 0.279s
+Tempo total: 0.349s, 
+
+1.735 nodes 20 pontos aleatórios
+Dijkstra: 0.404s, 
+ACO: 0.575s
+Tempo total: 0.979s, 
+
+1.735 nodes 30 pontos aleatórios
+Dijkstra: 0.945s, 
+ACO: 0.879s
+Tempo total: 1.823s, 
+
+5.504 nodes 5 pontos aleatórios
+Dijkstra: 0.076s, 
+ACO: 0.121s
+Tempo total: 0.196s, 
+
+5.504 nodes 10 pontos aleatórios
+Dijkstra: 0.345s, 
+ACO: 0.277s
+Tempo total: 0.622s, 
+
+5.504 nodes 20 pontos aleatórios
+Dijkstra: 1.629s, 
+ACO: 0.582s
+Tempo total: 2.211s, 
+
+5.504 nodes 30 pontos aleatórios
+Dijkstra: 3.446s, 
+ACO: 0.909s
+Tempo total: 4.355s, 
+
+
+12.850 nodes 5 pontos aleatórios
+Dijkstra: 0.18s, 
+ACO: 0.131s
+Tempo total: 0.311s, 
+
+12.850 nodes 10 pontos aleatórios
+Dijkstra: 0.816s, 
+ACO: 0.29s
+Tempo total: 1.106s, 
+
+12.850 nodes 20 pontos aleatórios
+Dijkstra: 3.026s, 
+ACO: 0.595s
+Tempo total: 3.621s, 
+
+12.850 nodes 30 pontos aleatórios
+Dijkstra: 8.219s, 
+ACO: 0.931s
+Tempo total: 9.15s, 
+
+36.261 nodes 5 pontos aleatórios
+Dijkstra: 0.379s, 
+ACO: 0.122s
+Tempo total: 0.501s, 
+
+36.261 nodes 10 pontos aleatórios
+Dijkstra: 2.32s, 
+ACO: 0.293s
+Tempo total: 2.613s, 
+
+36.261 nodes 20 pontos aleatórios
+Dijkstra: 10.49s, 
+ACO: 0.612s
+Tempo total: 11.102s, 
+
+36.261 nodes 30 pontos aleatórios
+Dijkstra: 20.008s, 
+ACO: 0.916s
+Tempo total: 20.924s, 
+
+47.290 nodes 5 pontos aleatórios
+Dijkstra: 0.756s, 
+ACO: 0.15s
+Tempo total: 0.907s, 
+
+47.290 nodes 10 pontos aleatórios
+Dijkstra: 3.34s, 
+ACO: 0.3s
+Tempo total: 3.64s, 
+
+47.290 nodes 20 pontos aleatórios
+Dijkstra: 13.883s, 
+ACO: 0.658s
+Tempo total: 14.541s, 
+
+47.290 nodes 30 pontos aleatórios
+Dijkstra: 30.458s, 
+ACO: 1.01s
+Tempo total: 31.468s, 
